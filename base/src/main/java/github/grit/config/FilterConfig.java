@@ -1,6 +1,5 @@
 package github.grit.config;
 
-import javax.servlet.annotation.WebFilter;
 
 import github.grit.filter.SimpleFilter;
 
@@ -9,7 +8,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@WebFilter
 public class FilterConfig {
 	@Bean
 	public FilterRegistrationBean<SimpleFilter> myFilter() {
@@ -17,7 +15,7 @@ public class FilterConfig {
 		registrationBean.setFilter(new SimpleFilter());
 		registrationBean.addUrlPatterns("/*");
 		registrationBean.setName("MyFilter");
-		registrationBean.setOrder(1);
+		registrationBean.setOrder(0);
 		return registrationBean;
 	}
 }
