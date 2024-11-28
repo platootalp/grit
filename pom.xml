@@ -12,6 +12,7 @@
 
 	<modules>
 		<module>base</module>
+		<module>design-pattern</module>
 	</modules>
 
 	<properties>
