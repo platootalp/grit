@@ -1,4 +1,4 @@
-package github.common.request;
+package github.grit.common.request;
 
 import lombok.Data;
 

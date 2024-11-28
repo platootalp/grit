@@ -1,4 +1,4 @@
-package github.common.facade;
+package github.grit.common.facade;
 
 import lombok.*;
 
