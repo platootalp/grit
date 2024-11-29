@@ -2,6 +2,7 @@ package github.grit.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
 import github.grit.common.request.ArticleCreateRequest;
+import github.grit.common.response.ArticleDetailResponse;
 import github.grit.entity.Article;
 
 /**
@@ -14,4 +15,6 @@ import github.grit.entity.Article;
  */
 public interface IArticleService extends IService<Article> {
 	Integer save(ArticleCreateRequest request);
+
+	ArticleDetailResponse get(Integer id);
 }

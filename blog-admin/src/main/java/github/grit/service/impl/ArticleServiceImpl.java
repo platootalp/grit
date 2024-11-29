@@ -2,6 +2,7 @@ package github.grit.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import github.grit.common.request.ArticleCreateRequest;
+import github.grit.common.response.ArticleDetailResponse;
 import github.grit.entity.Article;
 import github.grit.mapper.ArticleMapper;
 import github.grit.service.IArticleService;
@@ -29,5 +30,10 @@ public class ArticleServiceImpl extends ServiceImpl<ArticleMapper, Article> impl
 		Article article = new Article();
 		BeanUtils.copyProperties(request,article);
 		return articleMapper.insert(article);
+	}
+
+	@Override
+	public ArticleDetailResponse get(Integer id) {
+		return new ArticleDetailResponse();
 	}
 }
