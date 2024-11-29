@@ -1,19 +1,20 @@
 <template>
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App" />
-    <!-- 跳转到写博客页面 -->
-    <router-link to="/write-blog">
-        <button>去写博客</button>
-    </router-link>
+    <div id="app">
+        <!-- <img alt="Vue logo" src="./assets/logo.png">
+        <HelloWorld msg="Welcome to Your Vue.js App" /> -->
+        <WriteBlog/>
+    </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import WriteBlog from './view/WriteBlog.vue' 
 
 export default {
     name: 'App',
     components: {
-        HelloWorld
+        HelloWorld,
+        WriteBlog // 添加 WriteBlog 组件
     }
 }
 </script>

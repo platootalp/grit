@@ -1,16 +1,28 @@
 // main.js
 import { createApp } from 'vue';
 import App from './App.vue';
-import ElementPlus from 'element-plus';
-import 'element-plus/dist/index.css'; // 引入 Element Plus 的样式
 import router from './router'
-import { mavonEditor } from 'mavon-editor'
-import 'mavon-editor/dist/css/index.css'
 
-// 创建 Vue 实例并挂载
+import ElementPlus from 'element-plus';
+import 'element-plus/dist/index.css';
+
+
+import VMdEditor from '@kangc/v-md-editor';
+import '@kangc/v-md-editor/lib/style/base-editor.css';
+import githubTheme from '@kangc/v-md-editor/lib/theme/github.js';
+import '@kangc/v-md-editor/lib/theme/style/github.css';
+
+// highlightjs
+import hljs from 'highlight.js';
+
+VMdEditor.use(githubTheme, {
+    Hljs: hljs,
+});
+
 const app = createApp(App);
+
+app.use(VMdEditor);
 app.use(router);
-app.use(mavonEditor);
 app.use(ElementPlus);
 app.mount('#app');
 
