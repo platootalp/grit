@@ -19,9 +19,10 @@
 
 	<modules>
 		<module>base</module>
+		<module>blog</module>
 		<module>design-pattern</module>
-		<module>blog-admin</module>
-		<module>blog-common</module>
+		<module>netty</module>
+		<module>spring</module>
 	</modules>
 
 	<properties>
