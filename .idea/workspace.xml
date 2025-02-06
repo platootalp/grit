@@ -5,21 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0d64b62-1122-4656-acff-16acbb39d3c7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/java/github/grit/util/UserUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/github/grit/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/test/java/github/grit/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/github/grit/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/test/java/github/grit/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message/src/main/java/github/grit/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message/src/test/java/github/grit/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note/message.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note/starter.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/src/main/java/github/grit/config/FilterConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-admin/src/main/java/github/grit/filter/SimpleFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-admin/src/main/java/github/grit/filter/AuthFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/SQL优化.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/filter.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,11 +22,28 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/deepseek-copilot">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -40,6 +52,14 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
+        <option name="userSettingsFile" value="$USER_HOME$/.m2/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2pQROLEtP0DvQdUrRx8IM2FQX8O" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -57,22 +77,31 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "/Users/lijunyi/road/grit",
+    "last_opened_file_path": "/Users/lijunyi/road/grit/message",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA",
+      "PLAIN_TEXT"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/message" />
       <recent name="$PROJECT_DIR$/blog-admin/src/main/java/github/grit" />
       <recent name="$PROJECT_DIR$/blog-ui/src" />
       <recent name="$PROJECT_DIR$/blog-common/src/main/resources" />
       <recent name="$PROJECT_DIR$/blog-common/src/main" />
-      <recent name="$PROJECT_DIR$/blog-admin/src/main" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/deepseek-copilot/src/main/java" />
+      <recent name="$PROJECT_DIR$/blog/sql" />
+      <recent name="$PROJECT_DIR$/blog" />
       <recent name="$PROJECT_DIR$/blog-ui/src/view" />
       <recent name="$PROJECT_DIR$/blog-ui/src/components" />
     </key>
@@ -98,12 +127,17 @@
       </method>
     </configuration>
     <configuration name="Server" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="github.grit.Server" />
-      <module name="blog-admin" />
+      <option name="MAIN_CLASS_NAME" value="github.grit.App" />
+      <module name="message" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Server" />
+      <item itemvalue="Application.Generator" />
+      <item itemvalue="Gradle.Run Plugin" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Generator" />
