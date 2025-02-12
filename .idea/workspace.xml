@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0d64b62-1122-4656-acff-16acbb39d3c7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/github/grif/chain/BaseHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/github/grif/chain/TestBaseHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/github/grif/config/DesignPatternAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note/llm应用.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/github/grit/filter/SimpleFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/github/grit/filter/SimpleFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/blog-admin/src/main/java/github/grit/filter/AuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog/blog-admin/src/main/java/github/grit/filter/AuthFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/blog-admin/src/main/java/github/grit/interceptor/SimpleInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog/blog-admin/src/main/java/github/grit/interceptor/SimpleInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/blog-admin/src/main/java/github/grit/util/UserUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog/blog-admin/src/main/java/github/grit/util/UserUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/blog-common/src/main/java/github/grit/common/request/ArticleCreateRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog/blog-common/src/main/java/github/grit/common/request/ArticleCreateRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/blog/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattern/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattern/src/main/java/github/grif/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern/src/main/java/github/grif/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattern/src/main/java/github/grif/responsibility/BaseHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattern/src/main/java/github/grif/responsibility/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern/src/main/java/github/grif/chain/Handler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattern/src/main/java/github/grif/responsibility/HandlerChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern/src/main/java/github/grif/chain/ChainContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-pattern/src/test/java/github/grif/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern/src/test/java/github/grif/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +116,7 @@
       <recent name="github.grit.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Server">
+  <component name="RunManager" selected="JUnit.AppTest.testChainContext">
     <configuration name="Generator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="github.grit.Generator" />
       <module name="blog-common" />
@@ -133,12 +137,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppTest.testChainContext" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="github.grif.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="github.grif" />
+      <option name="MAIN_CLASS_NAME" value="github.grif.AppTest" />
+      <option name="METHOD_NAME" value="testChainContext" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Server" />
       <item itemvalue="Application.Generator" />
+      <item itemvalue="JUnit.AppTest.testChainContext" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppTest.testChainContext" />
         <item itemvalue="Application.Generator" />
       </list>
     </recent_temporary>
