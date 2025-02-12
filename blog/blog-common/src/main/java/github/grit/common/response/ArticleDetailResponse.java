@@ -1,8 +1,8 @@
 package github.grit.common.response;
 
-import javax.validation.constraints.NotBlank;
 
 import io.swagger.v3.oas.annotations.media.Schema;
+import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
 
 @Schema(description = "文章详情数据")

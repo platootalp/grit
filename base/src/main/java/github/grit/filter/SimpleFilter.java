@@ -2,19 +2,23 @@ package github.grit.filter;
 
 import java.io.IOException;
 
-import javax.servlet.Filter;
-import javax.servlet.FilterChain;
-import javax.servlet.ServletException;
-import javax.servlet.ServletRequest;
-import javax.servlet.ServletResponse;
-
+import jakarta.servlet.Filter;
+import jakarta.servlet.FilterChain;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.ServletRequest;
+import jakarta.servlet.ServletResponse;
 
 
 public class SimpleFilter implements Filter {
 	@Override
 	public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
 		System.out.println("对request进行过滤");
-		filterChain.doFilter(servletRequest,servletResponse);
+		try {
+			filterChain.doFilter(servletRequest,servletResponse);
+		}
+		catch (ServletException e) {
+			throw new RuntimeException(e);
+		}
 		System.out.println("对response进行过滤");
 	}
 }
