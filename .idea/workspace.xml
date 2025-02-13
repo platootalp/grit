@@ -5,17 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0d64b62-1122-4656-acff-16acbb39d3c7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/github/grif/chain/BaseHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/github/grif/chain/TestBaseHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/github/grif/config/DesignPatternAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note/llm应用.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern/src/main/java/github/grif/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern/src/main/java/github/grif/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern/src/main/java/github/grif/responsibility/BaseHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern/src/main/java/github/grif/responsibility/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern/src/main/java/github/grif/chain/Handler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern/src/main/java/github/grif/responsibility/HandlerChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern/src/main/java/github/grif/chain/ChainContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern/src/test/java/github/grif/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern/src/test/java/github/grif/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/AI学习路径.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/AI/AI学习路径.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/SaaS工具开发.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/AI/SaaS工具开发.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/Starter开发.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/starter/Starter开发.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/cache-starter.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/starter/cache-starter.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/llm应用.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/AI/llm应用学习.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/message.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/starter/message.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/学习方向.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/direction/学习方向.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/进阶之路.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/direction/进阶之路.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,13 +78,14 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ToolWindowBuild.ShowToolbar": "false",
+    "com.codeium.enabled": "true",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
     "last_opened_file_path": "/Users/lijunyi/road/grit/starter/cache-spring-boot-starter",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.16920471",
-    "settings.editor.selected.configurable": "MavenSettings"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   },
   "keyToStringList": {
     "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
@@ -103,11 +103,11 @@
       <recent name="$PROJECT_DIR$/blog-common/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/note/direction" />
+      <recent name="$PROJECT_DIR$/note/AI" />
+      <recent name="$PROJECT_DIR$/note/starter" />
       <recent name="$PROJECT_DIR$/deepseek-copilot/src/main/java" />
       <recent name="$PROJECT_DIR$/blog/sql" />
-      <recent name="$PROJECT_DIR$/blog" />
-      <recent name="$PROJECT_DIR$/blog-ui/src/view" />
-      <recent name="$PROJECT_DIR$/blog-ui/src/components" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="github.grit" />
