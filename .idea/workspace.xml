@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0d64b62-1122-4656-acff-16acbb39d3c7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/note/project/framework.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/AI学习路径.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/AI/AI学习路径.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/SaaS工具开发.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/AI/SaaS工具开发.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/Starter开发.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/starter/Starter开发.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/cache-starter.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/starter/cache-starter.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/llm应用.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/AI/llm应用学习.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/message.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/starter/message.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/学习方向.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/direction/学习方向.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/进阶之路.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/direction/进阶之路.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/direction/进阶之路.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/direction/进阶之路.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/starter/Starter开发.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/project/starter/starter开发.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/starter/cache-starter.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/project/starter/cache-starter.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/starter/message.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/project/starter/message-starter.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,29 +67,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ToolWindowBuild.ShowToolbar": "false",
-    "com.codeium.enabled": "true",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "/Users/lijunyi/road/grit/starter/cache-spring-boot-starter",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.16920471",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ToolWindowBuild.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/lijunyi/road/grit/starter/cache-spring-boot-starter&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.16920471&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "JAVA",
-      "PLAIN_TEXT"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;,
+      &quot;PLAIN_TEXT&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/starter/cache-spring-boot-starter" />
@@ -103,11 +99,11 @@
       <recent name="$PROJECT_DIR$/blog-common/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/note/project" />
       <recent name="$PROJECT_DIR$/note/direction" />
       <recent name="$PROJECT_DIR$/note/AI" />
       <recent name="$PROJECT_DIR$/note/starter" />
       <recent name="$PROJECT_DIR$/deepseek-copilot/src/main/java" />
-      <recent name="$PROJECT_DIR$/blog/sql" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="github.grit" />
