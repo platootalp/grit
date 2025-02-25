@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0d64b62-1122-4656-acff-16acbb39d3c7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/note/中间件/HBase.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note/中间件/TiDB.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note/系统设计/冷热分离.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note/系统设计/接口幂等.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note/系统设计/读写分离&amp;分库分表.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/github/grit/interceptor/SimpleInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/github/grit/interceptor/SimpleInterceptor.java" afterDir="false" />
-    </list>
+    <list default="true" id="d0d64b62-1122-4656-acff-16acbb39d3c7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
