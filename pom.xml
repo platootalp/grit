@@ -18,6 +18,7 @@
 	<url>http://maven.apache.org</url>
 
 	<modules>
+		<module>algorithm</module>
 		<module>base</module>
 		<module>blog</module>
 		<module>design-pattern</module>
