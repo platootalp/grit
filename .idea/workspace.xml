@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0d64b62-1122-4656-acff-16acbb39d3c7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/note/llm应用/C端应用想法.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note/llm应用/内容生成平台1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note/llm应用/内容生成平台2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note/llm应用/对话平台.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note/llm应用/对话平台1.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/AI/SaaS工具开发.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/llm应用/SaaS工具开发.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/AI/dify应用.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/llm应用/dify应用.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
