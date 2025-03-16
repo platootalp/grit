@@ -11,6 +11,7 @@ import java.util.Map;
 @Component
 public class ModelProperties {
     private Map<String, Model> models;
+    private Map<String, Model> streamModels;
 
     @Data
     public static class Model {
