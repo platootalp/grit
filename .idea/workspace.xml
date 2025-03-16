@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0d64b62-1122-4656-acff-16acbb39d3c7" name="Changes" comment="" />
+    <list default="true" id="d0d64b62-1122-4656-acff-16acbb39d3c7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/llm/src/main/java/github/grit/llm/config/LlmConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llm/src/main/java/github/grit/llm/config/ModelProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llm/src/main/java/github/grit/llm/controller/ChatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Main.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,6 +83,7 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;Application.UnionFind.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LlmApplicationTests.testChat.executor&quot;: &quot;Run&quot;,
     &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -79,12 +94,16 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/lijunyi/road/grit&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/project/grit/llm&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.16920471&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;cn.yiiguxing.plugin.translate&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
@@ -102,11 +121,11 @@
       <recent name="$PROJECT_DIR$/blog-common/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\project\grit" />
       <recent name="E:\project\Java\grit\note\llm应用" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/note" />
       <recent name="$PROJECT_DIR$/note/project" />
-      <recent name="$PROJECT_DIR$/note/direction" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="github.grit" />
@@ -115,7 +134,7 @@
       <recent name="github.grit.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UnionFind">
+  <component name="RunManager" selected="JUnit.LlmApplicationTests.testChat">
     <configuration name="Generator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="github.grit.Generator" />
       <module name="blog-common" />
@@ -210,6 +229,30 @@
       <option name="MAIN_CLASS_NAME" value="github.grif.AppTest" />
       <option name="METHOD_NAME" value="testChainContext" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LlmApplicationTests.testChat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="llm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="github.grit.llm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="github.grit.llm" />
+      <option name="MAIN_CLASS_NAME" value="github.grit.llm.LlmApplicationTests" />
+      <option name="METHOD_NAME" value="testChat" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LlmApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="llm" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="github.grit.llm.LlmApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -218,15 +261,26 @@
       <item itemvalue="Application.Server" />
       <item itemvalue="Application.UnionFind" />
       <item itemvalue="Application.Generator" />
+      <item itemvalue="JUnit.LlmApplicationTests.testChat" />
       <item itemvalue="JUnit.AppTest.testChainContext" />
+      <item itemvalue="Spring Boot.LlmApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LlmApplicationTests.testChat" />
         <item itemvalue="Application.UnionFind" />
         <item itemvalue="JUnit.AppTest.testChainContext" />
         <item itemvalue="Application.Generator" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.117" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.117" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -236,8 +290,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732696280849</updated>
+      <workItem from="1741522292558" duration="685000" />
+      <workItem from="1741611124643" duration="42000" />
+      <workItem from="1741611482858" duration="1987000" />
+      <workItem from="1742044569554" duration="1550000" />
+      <workItem from="1742047393009" duration="284000" />
+      <workItem from="1742047707423" duration="888000" />
+      <workItem from="1742048609212" duration="3815000" />
+      <workItem from="1742090911760" duration="6323000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

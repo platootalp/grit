@@ -5,11 +5,14 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/starter/llm/pom.xml" />
+        <option value="$PROJECT_DIR$/llm/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/springboot-cache-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/starter/llm/pom.xml" />
       </set>
     </option>
   </component>

@@ -26,6 +26,7 @@
 		<module>netty</module>
 		<module>spring</module>
 		<module>starter</module>
+		<module>llm</module>
 	</modules>
 
 	<properties>
@@ -46,6 +47,13 @@
 
 	<dependencyManagement>
 		<dependencies>
+			<dependency>
+				<groupId>dev.langchain4j</groupId>
+				<artifactId>langchain4j-bom</artifactId>
+				<version>1.0.0-beta2</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
 			<!-- Spring Boot Starter Web -->
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
