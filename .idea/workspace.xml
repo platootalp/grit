@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0d64b62-1122-4656-acff-16acbb39d3c7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/llm/src/main/java/github/grit/llm/service/Copilot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/llm/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/src/main/java/github/grit/llm/LlmApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/src/main/java/github/grit/llm/LlmApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/src/main/java/github/grit/llm/config/LlmConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/src/main/java/github/grit/llm/config/LlmConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/src/main/java/github/grit/llm/config/ModelProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/src/main/java/github/grit/llm/config/ModelProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/src/main/java/github/grit/llm/controller/ChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/src/main/java/github/grit/llm/controller/ChatController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/llm/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/src/test/java/github/grit/llm/LlmApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/src/test/java/github/grit/llm/LlmApplicationTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="d0d64b62-1122-4656-acff-16acbb39d3c7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,10 +38,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -107,7 +97,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.16920471",
-    "settings.editor.selected.configurable": "cn.yiiguxing.plugin.translate",
+    "settings.editor.selected.configurable": "MavenSettings",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -139,7 +129,7 @@
       <recent name="github.grit.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.LlmApplication">
+  <component name="RunManager" selected="Application.Server">
     <configuration name="Generator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="github.grit.Generator" />
       <module name="blog-common" />
@@ -268,7 +258,6 @@
       <item itemvalue="Application.Generator" />
       <item itemvalue="JUnit.LlmApplicationTests.testChat" />
       <item itemvalue="JUnit.AppTest.testChainContext" />
-      <item itemvalue="Spring Boot.LlmApplication" />
     </list>
     <recent_temporary>
       <list>
