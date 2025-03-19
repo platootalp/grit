@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0d64b62-1122-4656-acff-16acbb39d3c7" name="Changes" comment="" />
+    <list default="true" id="d0d64b62-1122-4656-acff-16acbb39d3c7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/note/llm应用/对话平台/架构.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/test/java/github/grit/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blog-admin/src/test/java/github/grit/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/llm/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/src/main/java/github/grit/llm/config/ModelProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/src/main/java/github/grit/llm/config/ModelProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/src/main/java/github/grit/llm/controller/ChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/src/main/java/github/grit/llm/controller/ChatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/src/main/java/github/grit/llm/service/Copilot.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/src/main/java/github/grit/llm/service/Copilot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/llm/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message/src/test/java/github/grit/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/test/java/github/grit/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/llm应用/对话平台.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/llm应用/对话平台/对话平台.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/llm应用/对话平台1.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/llm应用/对话平台/对话平台1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/test/java/github/grit/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cache-spring-boot-starter/src/test/java/github/grit/AppTest.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,16 +63,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="customMavenHome" value="E:\Java\maven\apache-maven-3.6.1" />
-        <option name="localRepository" value="E:\Java\maven\apache-maven-3.6.1\repository" />
-        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
-        <option name="userSettingsFile" value="E:\Java\maven\apache-maven-3.6.1\conf\settings.xml" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -72,9 +80,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.LlmApplication.executor": "Debug",
     "Application.UnionFind.executor": "Run",
     "JUnit.LlmApplicationTests.testChat.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.llm [org.apache.maven.plugins:maven-clean-plugin:3.3.2:clean].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -116,11 +126,11 @@
       <recent name="$PROJECT_DIR$/blog-common/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/note/llm应用/对话平台" />
       <recent name="E:\project\grit" />
       <recent name="E:\project\Java\grit\note\llm应用" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/note" />
-      <recent name="$PROJECT_DIR$/note/project" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="github.grit" />
@@ -129,7 +139,7 @@
       <recent name="github.grit.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Server">
+  <component name="RunManager" selected="Application.LlmApplication">
     <configuration name="Generator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="github.grit.Generator" />
       <module name="blog-common" />
@@ -149,6 +159,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="github.grit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LlmApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="github.grit.llm.LlmApplication" />
+      <module name="llm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="github.grit.llm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -254,6 +277,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.Server" />
+      <item itemvalue="Application.LlmApplication" />
       <item itemvalue="Application.UnionFind" />
       <item itemvalue="Application.Generator" />
       <item itemvalue="JUnit.LlmApplicationTests.testChat" />
@@ -261,6 +285,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LlmApplication" />
         <item itemvalue="JUnit.LlmApplicationTests.testChat" />
         <item itemvalue="Application.UnionFind" />
         <item itemvalue="JUnit.AppTest.testChainContext" />

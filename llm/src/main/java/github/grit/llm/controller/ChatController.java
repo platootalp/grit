@@ -6,6 +6,7 @@ import dev.langchain4j.service.AiServices;
 import dev.langchain4j.service.TokenStream;
 import github.grit.llm.service.Copilot;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.codec.ServerSentEvent;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -30,9 +31,13 @@ public class ChatController {
     }
 
     @GetMapping("/chat/stream")
-    public TokenStream chat2(String userMessage) {
-        StreamingChatLanguageModel streamingChatLanguageModel = streamingModelBeans.get("deepseek-r1");
+    public Flux<ServerSentEvent<String>> chat2(String userMessage) {
+        StreamingChatLanguageModel streamingChatLanguageModel = streamingModelBeans.get("deepseek-v3");
         Copilot copilot = AiServices.create(Copilot.class, streamingChatLanguageModel);
-        return copilot.streamChat(userMessage);
+
+        return copilot.streamChat(userMessage)
+                .doOnNext(message -> System.out.println("Sending message: " + message)) // 添加日志
+                .map(message -> ServerSentEvent.builder(message).build());
     }
+
 }
