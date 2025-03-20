@@ -1,0 +1,17 @@
+--CREATE TABLE IF NOT EXISTS conversations (
+--    id VARCHAR(36) NOT NULL PRIMARY KEY,
+--    title VARCHAR(255) NOT NULL,
+--    created_at DATETIME NOT NULL,
+--    updated_at DATETIME NOT NULL,
+--    deleted TINYINT DEFAULT 0
+--) ENGINE = InnoDB DEFAULT CHARSET = utf8mb4;
+--
+--CREATE TABLE IF NOT EXISTS messages (
+--    id VARCHAR(36) NOT NULL PRIMARY KEY,
+--    conversation_id VARCHAR(36) NOT NULL,
+--    content TEXT NOT NULL,
+--    role VARCHAR(20) NOT NULL,
+--    created_at DATETIME NOT NULL,
+--    deleted TINYINT DEFAULT 0,
+--    FOREIGN KEY (conversation_id) REFERENCES conversations(id)
+--) ENGINE = InnoDB DEFAULT CHARSET = utf8mb4;

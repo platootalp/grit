@@ -2,7 +2,6 @@ package github.grit.llm.service;
 
 
 import dev.langchain4j.service.SystemMessage;
-import dev.langchain4j.service.TokenStream;
 import reactor.core.publisher.Flux;
 
 public interface Copilot {

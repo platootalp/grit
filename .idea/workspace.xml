@@ -5,7 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0d64b62-1122-4656-acff-16acbb39d3c7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/llm/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llm/llm-ui/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llm/llm-ui/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llm/llm-ui/src/components/Chat.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llm/llm-ui/src/components/chat/ChatMessage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llm/llm-ui/src/components/chat/temp.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llm/llm-ui/src/components/common/ConfirmDialog.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llm/llm-ui/src/services/chat.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llm/llm-ui/src/services/websocket.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llm/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llm/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llm/src/main/resources/db/schema.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/llm/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/src/main/java/github/grit/llm/service/Copilot.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/src/main/java/github/grit/llm/service/Copilot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,11 +125,11 @@
       <recent name="$PROJECT_DIR$/blog-common/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/llm" />
+      <recent name="$PROJECT_DIR$/" />
       <recent name="$PROJECT_DIR$/note/llm应用/对话平台" />
       <recent name="E:\project\grit" />
       <recent name="E:\project\Java\grit\note\llm应用" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/note" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="github.grit" />

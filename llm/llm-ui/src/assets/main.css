@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+            'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+}
+
+/* 全局样式 */
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    @apply bg-gray-50 dark:bg-gray-900;
+}
+
+#app {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+@layer components {
+    .btn {
+        @apply px-4 py-2 rounded-md font-medium transition-colors duration-200;
+    }
+
+    .btn-primary {
+        @apply bg-gray-700 hover:bg-gray-800 text-white dark:bg-indigo-600 dark:hover:bg-indigo-700;
+    }
+
+    .card {
+        @apply bg-white dark:bg-gray-800 rounded-lg shadow-md p-4;
+    }
+
+    .message-bubble-user {
+        @apply bg-indigo-600 text-white rounded-2xl px-4 py-3 max-w-3xl;
+    }
+
+    .message-bubble-assistant {
+        @apply bg-gray-200 text-gray-800 dark:bg-gray-700 dark:text-white rounded-2xl px-4 py-3 max-w-3xl;
+    }
+
+    .sidebar-chatgpt {
+        @apply h-full bg-gray-100 dark:bg-gray-800 border-r border-gray-200 dark:border-gray-700 flex flex-col w-72 transition-all duration-300 ease-in-out;
+    }
+
+    .session-item-chatgpt {
+        @apply flex items-center p-3 cursor-pointer hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors duration-150 rounded-md mx-2 my-1;
+    }
+
+    .chat-container-chatgpt {
+        @apply h-full flex flex-col bg-white dark:bg-gray-900;
+    }
+
+    .chat-input-chatgpt {
+        @apply border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 rounded-xl p-2 focus:outline-none focus:ring-2 focus:ring-indigo-500 dark:text-white;
+    }
+
+    .main-view-chatgpt {
+        @apply bg-white dark:bg-[#343541] flex-1 transition-all duration-300 ease-in-out;
+    }
+}
+
+/* 移动端样式 */
+@media (max-width: 768px) {
+    .sidebar-chatgpt {
+        @apply absolute z-50 left-0 top-0 shadow-lg;
+    }
+
+    .chat-container-chatgpt {
+        @apply relative overflow-hidden;
+    }
+}
