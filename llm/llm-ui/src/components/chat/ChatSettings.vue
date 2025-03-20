@@ -29,12 +29,9 @@ const enableAPI = computed(() => !!formValues.value.apiKey?.trim());
 
 // 可用模型列表
 const availableModels = [
-    { id: 'gpt-3.5-turbo', name: 'GPT-3.5 Turbo' },
-    { id: 'gpt-4', name: 'GPT-4' },
-    { id: 'gpt-4-turbo', name: 'GPT-4 Turbo' },
-    { id: 'claude-3-opus', name: 'Claude 3 Opus' },
-    { id: 'claude-3-sonnet', name: 'Claude 3 Sonnet' },
-    { id: 'claude-3-haiku', name: 'Claude 3 Haiku' },
+    { id: 'GPT-3.5', name: 'GPT-3.5' },
+    { id: 'GPT-4', name: 'GPT-4' },
+    { id: 'Claude-3', name: 'Claude-3' },
 ];
 
 // 是否显示API密钥

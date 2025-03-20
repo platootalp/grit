@@ -2,8 +2,11 @@ import axios from 'axios';
 import type { ChatSession, Message, ChatSettings } from '../types/chat';
 
 // API基础设置
-const apiBaseUrl = import.meta.env.VITE_API_BASE_URL || 'http://localhost:3000/api';
-const wsUrl = import.meta.env.VITE_WS_URL || 'ws://localhost:3000/ws';
+const apiBaseUrl = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8080/api';
+const wsUrl = import.meta.env.VITE_WS_URL || 'ws://localhost:8080/ws';
+
+// 增加一个环境变量判断，如果没有后端服务则使用模拟数据
+const useMockData = true; // 暂时强制使用模拟数据，直到后端API准备好
 
 // Axios实例
 const api = axios.create({
@@ -83,49 +86,62 @@ export const apiService = {
     // 获取会话列表
     getConversations: async (): Promise<ChatSession[]> => {
         try {
-            // 在真实环境中，这里会调用API
-            // const response = await api.get('/conversations');
-            // return response.data;
+            // 如果使用模拟数据，直接返回模拟会话列表
+            if (useMockData) {
+                return mockSessions;
+            }
 
-            // 返回模拟数据
-            return mockSessions;
+            // 调用真实API
+            const response = await api.get('/conversations');
+            return response.data;
         } catch (error) {
             console.error('获取会话列表失败:', error);
-            throw error;
+            // 出错时返回模拟数据
+            return mockSessions;
         }
     },
 
     // 获取单个会话的消息
     getMessages: async (conversationId: string): Promise<Message[]> => {
         try {
-            // 在真实环境中，这里会调用API
-            // const response = await api.get(`/conversations/${conversationId}`);
-            // return response.data.messages;
+            // 如果使用模拟数据，查找并返回模拟会话消息
+            if (useMockData) {
+                const session = mockSessions.find(s => s.id === conversationId);
+                return session?.messages || [];
+            }
 
-            // 返回模拟数据
-            const session = mockSessions.find(s => s.id === conversationId);
-            return session?.messages || [];
+            // 调用真实API
+            const response = await api.get(`/conversations/${conversationId}/messages`);
+            return response.data;
         } catch (error) {
             console.error('获取消息失败:', error);
-            throw error;
+            // 出错时查找并返回模拟数据
+            const session = mockSessions.find(s => s.id === conversationId);
+            return session?.messages || [];
         }
     },
 
     // 创建新会话
     createConversation: async (title: string): Promise<{ id: string; title: string }> => {
         try {
-            // 在真实环境中，这里会调用API
-            // const response = await api.post('/conversations', { title });
-            // return response.data;
+            // 如果使用模拟数据，创建一个模拟会话ID
+            if (useMockData) {
+                return {
+                    id: 'mock-session-' + Date.now().toString(36),
+                    title
+                };
+            }
 
-            // 返回模拟数据
+            // 调用真实API
+            const response = await api.post('/conversations', { title });
+            return response.data;
+        } catch (error) {
+            console.error('创建会话失败:', error);
+            // 出错时返回模拟数据
             return {
                 id: 'mock-session-' + Date.now().toString(36),
                 title
             };
-        } catch (error) {
-            console.error('创建会话失败:', error);
-            throw error;
         }
     },
 
@@ -136,17 +152,29 @@ export const apiService = {
         options: { modelName?: string; temperature?: number; stream?: boolean } = {}
     ): Promise<Message> => {
         try {
-            // 在真实环境中，这里会调用API
-            // const response = await api.post('/chat', {
-            //     message,
-            //     conversation_id: conversationId,
-            //     model: options.modelName,
-            //     temperature: options.temperature,
-            //     stream: options.stream
-            // });
-            // return response.data;
+            // 如果使用模拟数据，生成模拟响应
+            if (useMockData) {
+                const response = await generateMockResponse(message);
+                return {
+                    id: 'msg-' + Date.now().toString(36),
+                    role: 'assistant',
+                    content: response,
+                    timestamp: Date.now()
+                };
+            }
 
-            // 返回模拟数据
+            // 调用真实API
+            const response = await api.post('/chat', {
+                message,
+                conversation_id: conversationId,
+                model: options.modelName,
+                temperature: options.temperature,
+                stream: options.stream
+            });
+            return response.data;
+        } catch (error) {
+            console.error('发送消息失败:', error);
+            // 出错时生成模拟响应
             const response = await generateMockResponse(message);
             return {
                 id: 'msg-' + Date.now().toString(36),
@@ -154,51 +182,54 @@ export const apiService = {
                 content: response,
                 timestamp: Date.now()
             };
-        } catch (error) {
-            console.error('发送消息失败:', error);
-            throw error;
         }
     },
 
     // 删除会话
     deleteConversation: async (conversationId: string): Promise<void> => {
         try {
-            // 在真实环境中，这里会调用API
-            // await api.delete(`/conversations/${conversationId}`);
+            // 如果使用模拟数据，直接打印日志
+            if (useMockData) {
+                console.log(`已删除会话: ${conversationId}`);
+                return;
+            }
 
-            // 模拟删除
-            console.log(`已删除会话: ${conversationId}`);
+            // 调用真实API
+            await api.delete(`/conversations/${conversationId}`);
         } catch (error) {
             console.error('删除会话失败:', error);
-            throw error;
         }
     },
 
     // 更新会话标题
     updateConversationTitle: async (conversationId: string, title: string): Promise<void> => {
         try {
-            // 在真实环境中，这里会调用API
-            // await api.patch(`/conversations/${conversationId}`, { title });
+            // 如果使用模拟数据，直接打印日志
+            if (useMockData) {
+                console.log(`已更新会话标题: ${conversationId} => ${title}`);
+                return;
+            }
 
-            // 模拟更新
-            console.log(`已更新会话标题: ${conversationId} => ${title}`);
+            // 调用真实API
+            await api.patch(`/conversations/${conversationId}`, { title });
         } catch (error) {
             console.error('更新会话标题失败:', error);
-            throw error;
         }
     },
 
     // 清空会话消息
     clearMessages: async (conversationId: string): Promise<void> => {
         try {
-            // 在真实环境中，这里会调用API
-            // await api.delete(`/conversations/${conversationId}/messages`);
+            // 如果使用模拟数据，直接打印日志
+            if (useMockData) {
+                console.log(`已清空会话消息: ${conversationId}`);
+                return;
+            }
 
-            // 模拟清空
-            console.log(`已清空会话消息: ${conversationId}`);
+            // 调用真实API
+            await api.delete(`/conversations/${conversationId}/messages`);
         } catch (error) {
             console.error('清空消息失败:', error);
-            throw error;
         }
     }
 };
@@ -208,7 +239,93 @@ export const createStreamingChatService = (
     onChunk: (content: string) => void,
     onComplete?: () => void
 ) => {
-    // 模拟流式响应
+    let socket: WebSocket | null = null;
+
+    // 如果使用模拟数据，使用模拟的流式响应
+    if (useMockData) {
+        return {
+            sendMessage: async (
+                message: string,
+                conversationId?: string,
+                options: { modelName?: string; temperature?: number } = {}
+            ): Promise<void> => {
+                try {
+                    const fullResponse = await generateMockResponse(message);
+
+                    // 模拟逐字发送
+                    const words = fullResponse.split(' ');
+                    for (const word of words) {
+                        await new Promise((resolve) => setTimeout(resolve, 100 + Math.random() * 200));
+                        onChunk(word + ' ');
+                    }
+
+                    if (onComplete) {
+                        onComplete();
+                    }
+                } catch (error) {
+                    console.error('流式聊天失败:', error);
+                    throw error;
+                }
+            },
+
+            // 关闭连接
+            close: () => {
+                console.log('关闭模拟流式连接');
+            }
+        };
+    }
+
+    const connectWebSocket = (
+        message: string,
+        conversationId?: string,
+        options: { modelName?: string; temperature?: number } = {}
+    ) => {
+        // 创建WebSocket连接
+        const queryParams = new URLSearchParams();
+        if (conversationId) queryParams.append('conversation_id', conversationId);
+        if (options.modelName) queryParams.append('model', options.modelName);
+        if (options.temperature) queryParams.append('temperature', options.temperature.toString());
+
+        const wsEndpoint = `${wsUrl}/chat?${queryParams.toString()}`;
+        socket = new WebSocket(wsEndpoint);
+
+        socket.onopen = () => {
+            // 连接建立后发送消息
+            if (socket) {  // 修复socket可能为null的问题
+                socket.send(JSON.stringify({ message }));
+            }
+        };
+
+        socket.onmessage = (event) => {
+            try {
+                const data = JSON.parse(event.data);
+
+                // 处理收到的数据块
+                if (data.content) {
+                    onChunk(data.content);
+                }
+
+                // 处理完成事件
+                if (data.done && onComplete) {
+                    onComplete();
+                    if (socket) {
+                        socket.close();
+                    }
+                }
+            } catch (error) {
+                console.error('解析WebSocket消息失败:', error);
+            }
+        };
+
+        socket.onerror = (error) => {
+            console.error('WebSocket错误:', error);
+        };
+
+        socket.onclose = () => {
+            console.log('WebSocket连接已关闭');
+        };
+    };
+
     return {
         sendMessage: async (
             message: string,
@@ -216,18 +333,7 @@ export const createStreamingChatService = (
             options: { modelName?: string; temperature?: number } = {}
         ): Promise<void> => {
             try {
-                const fullResponse = await generateMockResponse(message);
-
-                // 模拟逐字发送
-                const words = fullResponse.split(' ');
-                for (const word of words) {
-                    await new Promise((resolve) => setTimeout(resolve, 100 + Math.random() * 200));
-                    onChunk(word + ' ');
-                }
-
-                if (onComplete) {
-                    onComplete();
-                }
+                connectWebSocket(message, conversationId, options);
             } catch (error) {
                 console.error('流式聊天失败:', error);
                 throw error;
@@ -236,7 +342,9 @@ export const createStreamingChatService = (
 
         // 关闭连接
         close: () => {
-            console.log('关闭流式连接');
+            if (socket && socket.readyState === WebSocket.OPEN) {
+                socket.close();
+            }
         }
     };
 }; 

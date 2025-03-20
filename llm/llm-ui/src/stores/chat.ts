@@ -38,7 +38,7 @@ export const useChatStore = defineStore('chat', () => {
     // 聊天设置
     const settings = ref<ChatSettings>({
         apiKey: '',
-        modelName: 'gpt-3.5-turbo',
+        modelName: 'GPT-3.5',
         temperature: 0.7,
         maxTokens: 2048
     });
@@ -198,8 +198,7 @@ export const useChatStore = defineStore('chat', () => {
 
                 // 如果启用了API，更新后端会话标题
                 if (settings.value.apiKey) {
-                    // 假设API服务有updateConversation方法
-                    // await apiService.updateConversation(sessionId, { title });
+                    await apiService.updateConversationTitle(sessionId, title);
                 }
             }
         } catch (err) {
@@ -268,11 +267,28 @@ export const useChatStore = defineStore('chat', () => {
 
             if (settings.value.apiKey && useStreaming.value) {
                 // 使用流式响应
-                const streamingService = createStreamingChatService(handleStreamingResponse);
-                streamingService.sendMessage(content, activeSessionId.value ?? undefined);
+                const streamingService = createStreamingChatService(
+                    handleStreamingResponse,
+                    completeStreamingResponse
+                );
+                streamingService.sendMessage(
+                    content,
+                    activeSessionId.value ?? undefined,
+                    {
+                        modelName: settings.value.modelName,
+                        temperature: settings.value.temperature
+                    }
+                );
             } else if (settings.value.apiKey) {
                 // 使用普通API响应
-                const response = await apiService.sendMessage(content, activeSessionId.value ?? undefined);
+                const response = await apiService.sendMessage(
+                    content,
+                    activeSessionId.value ?? undefined,
+                    {
+                        modelName: settings.value.modelName,
+                        temperature: settings.value.temperature
+                    }
+                );
 
                 // 添加助手回复
                 addMessage({
@@ -329,8 +345,7 @@ export const useChatStore = defineStore('chat', () => {
 
                 // 如果启用了API，清空后端会话消息
                 if (settings.value.apiKey) {
-                    // 假设API服务有clearMessages方法
-                    // await apiService.clearMessages(sessionId);
+                    await apiService.clearMessages(sessionId);
                 }
             }
         } catch (err) {

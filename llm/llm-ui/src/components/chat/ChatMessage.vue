@@ -67,7 +67,7 @@ const messageClass = computed(() => {
       </div>
       <div class="flex-grow prose dark:prose-invert max-w-none overflow-hidden">
         <div class="text-xs text-gray-500 dark:text-gray-400 mb-2">
-          {{ role === 'user' ? '你' : role === 'assistant' ? 'AI助手' : '系统' }}
+          {{ role === 'user' ? '你' : role === 'assistant' ? `${chatStore.settings.modelName || 'AI助手'}` : '系统' }}
         </div>
         <div v-html="formattedContent" class="leading-relaxed text-[15px]"></div>
       </div>

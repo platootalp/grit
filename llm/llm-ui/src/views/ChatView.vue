@@ -21,6 +21,9 @@ const messagesContainer = ref<HTMLElement | null>(null);
 // 设置对话框可见性
 const showSettings = ref(false);
 
+// 模型下拉菜单状态
+const showModelDropdown = ref(false);
+
 // 确认对话框状态
 const confirmDialog = ref({
     show: false,
@@ -38,6 +41,15 @@ const selectedSessions = ref<string[]>([]);
 const isAllSelected = computed(() => {
     return chatStore.sessions.length > 0 && selectedSessions.value.length === chatStore.sessions.length;
 });
+
+// 选择模型
+const selectModel = (modelName: string) => {
+    chatStore.updateSettings({
+        ...chatStore.settings,
+        modelName
+    });
+    showModelDropdown.value = false;
+};
 
 // 发送消息
 const handleSend = async (content: string) => {
@@ -410,9 +422,39 @@ const goToHome = () => {
                                     clip-rule="evenodd" />
                             </svg>
                         </button>
-                        <h1 class="text-lg font-medium truncate max-w-xs">
-                            {{ chatStore.activeSession?.title || 'AI聊天助手' }}
-                        </h1>
+                        
+                        <!-- 模型选择下拉菜单 -->
+                        <div class="relative">
+                            <button @click="showModelDropdown = !showModelDropdown" @dblclick="toggleSettings"
+                                class="flex items-center gap-1 p-1.5 rounded hover:bg-gray-200 dark:hover:bg-gray-700 text-lg font-medium"
+                                title="点击切换模型，双击打开设置">
+                                {{ chatStore.settings.modelName || 'GPT-3.5' }}
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                </svg>
+                            </button>
+                            <!-- 模型下拉列表 -->
+                            <div v-if="showModelDropdown" 
+                                class="absolute left-0 mt-1 w-48 bg-white dark:bg-gray-800 rounded-md shadow-lg border border-gray-200 dark:border-gray-700 z-50">
+                                <div class="py-1">
+                                    <button @click="selectModel('GPT-3.5')"
+                                        class="w-full text-left px-4 py-2 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700"
+                                        :class="{'font-semibold bg-gray-50 dark:bg-gray-700': chatStore.settings.modelName === 'GPT-3.5'}">
+                                        GPT-3.5
+                                    </button>
+                                    <button @click="selectModel('GPT-4')"
+                                        class="w-full text-left px-4 py-2 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700"
+                                        :class="{'font-semibold bg-gray-50 dark:bg-gray-700': chatStore.settings.modelName === 'GPT-4'}">
+                                        GPT-4
+                                    </button>
+                                    <button @click="selectModel('Claude-3')"
+                                        class="w-full text-left px-4 py-2 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700"
+                                        :class="{'font-semibold bg-gray-50 dark:bg-gray-700': chatStore.settings.modelName === 'Claude-3'}">
+                                        Claude-3
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                     <!-- 设置按钮 -->
@@ -444,7 +486,7 @@ const goToHome = () => {
                                 </div>
 
                                 <div class="flex-1">
-                                    <div class="text-xs text-gray-500 dark:text-gray-400 mb-2">AI助手</div>
+                                    <div class="text-xs text-gray-500 dark:text-gray-400 mb-2">{{ chatStore.settings.modelName || 'AI助手' }}</div>
                                     <div class="flex space-x-2 text-[15px] leading-relaxed">
                                         <div class="w-2 h-2 bg-gray-400 rounded-full animate-bounce"></div>
                                         <div class="w-2 h-2 bg-gray-400 rounded-full animate-bounce delay-100"></div>
