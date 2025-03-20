@@ -5,23 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0d64b62-1122-4656-acff-16acbb39d3c7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/note/llm应用/对话平台/架构.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/test/java/github/grit/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/blog-admin/src/test/java/github/grit/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/llm/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/src/main/java/github/grit/llm/config/ModelProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/src/main/java/github/grit/llm/config/ModelProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/src/main/java/github/grit/llm/controller/ChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/src/main/java/github/grit/llm/controller/ChatController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/src/main/java/github/grit/llm/service/Copilot.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/src/main/java/github/grit/llm/service/Copilot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/llm/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message/src/test/java/github/grit/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/test/java/github/grit/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/llm应用/对话平台.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/llm应用/对话平台/对话平台.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/llm应用/对话平台1.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/llm应用/对话平台/对话平台1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/test/java/github/grit/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/cache-spring-boot-starter/src/test/java/github/grit/AppTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
