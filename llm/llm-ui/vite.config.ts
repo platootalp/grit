@@ -21,7 +21,8 @@ export default defineConfig({
       },
       '/ws': {
         target: 'ws://localhost:8080',
-        ws: true
+        ws: true,
+        rewrite: (path) => path.replace(/^\/ws/, '')
       }
     }
   }

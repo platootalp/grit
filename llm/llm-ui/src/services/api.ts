@@ -2,11 +2,15 @@ import axios from 'axios';
 import type { ChatSession, Message, ChatSettings } from '../types/chat';
 
 // API基础设置
-const apiBaseUrl = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8080/api';
-const wsUrl = import.meta.env.VITE_WS_URL || 'ws://localhost:8080/ws';
+const apiBaseUrl = import.meta.env.VITE_API_BASE_URL || '';
+const wsUrl = import.meta.env.VITE_WS_URL || '';
 
 // 增加一个环境变量判断，如果没有后端服务则使用模拟数据
-const useMockData = true; // 暂时强制使用模拟数据，直到后端API准备好
+const useMockData = false; // 改为false，连接到实际后端API
+
+// 添加调试信息
+console.log('API基础URL:', apiBaseUrl);
+console.log('WebSocket URL:', wsUrl);
 
 // Axios实例
 const api = axios.create({
@@ -16,6 +20,27 @@ const api = axios.create({
         'Content-Type': 'application/json',
     }
 });
+
+// 添加请求拦截器，用于调试
+api.interceptors.request.use(config => {
+    console.log('发送请求:', config.method?.toUpperCase(), config.url, config.data || '');
+    return config;
+});
+
+// 添加响应拦截器，用于调试
+api.interceptors.response.use(
+    response => {
+        console.log('接收响应:', response.status, response.data);
+        return response;
+    },
+    error => {
+        console.error('请求错误:', error.message);
+        if (error.response) {
+            console.error('错误响应:', error.response.status, error.response.data);
+        }
+        return Promise.reject(error);
+    }
+);
 
 // 模拟数据
 const mockSessions: ChatSession[] = [
@@ -164,14 +189,17 @@ export const apiService = {
             }
 
             // 调用真实API
-            const response = await api.post('/chat', {
-                message,
-                conversation_id: conversationId,
-                model: options.modelName,
-                temperature: options.temperature,
-                stream: options.stream
+            const endpoint = options.stream ? '/chat/stream' : '/chat';
+            const params = new URLSearchParams({
+                userMessage: message
             });
-            return response.data;
+            const response = await api.get(`${endpoint}?${params.toString()}`);
+            return {
+                id: 'msg-' + Date.now().toString(36),
+                role: 'assistant',
+                content: response.data,
+                timestamp: Date.now()
+            };
         } catch (error) {
             console.error('发送消息失败:', error);
             // 出错时生成模拟响应
@@ -239,7 +267,7 @@ export const createStreamingChatService = (
     onChunk: (content: string) => void,
     onComplete?: () => void
 ) => {
-    let socket: WebSocket | null = null;
+    let eventSource: EventSource | null = null;
 
     // 如果使用模拟数据，使用模拟的流式响应
     if (useMockData) {
@@ -275,57 +303,6 @@ export const createStreamingChatService = (
         };
     }
 
-    const connectWebSocket = (
-        message: string,
-        conversationId?: string,
-        options: { modelName?: string; temperature?: number } = {}
-    ) => {
-        // 创建WebSocket连接
-        const queryParams = new URLSearchParams();
-        if (conversationId) queryParams.append('conversation_id', conversationId);
-        if (options.modelName) queryParams.append('model', options.modelName);
-        if (options.temperature) queryParams.append('temperature', options.temperature.toString());
-
-        const wsEndpoint = `${wsUrl}/chat?${queryParams.toString()}`;
-        socket = new WebSocket(wsEndpoint);
-
-        socket.onopen = () => {
-            // 连接建立后发送消息
-            if (socket) {  // 修复socket可能为null的问题
-                socket.send(JSON.stringify({ message }));
-            }
-        };
-
-        socket.onmessage = (event) => {
-            try {
-                const data = JSON.parse(event.data);
-
-                // 处理收到的数据块
-                if (data.content) {
-                    onChunk(data.content);
-                }
-
-                // 处理完成事件
-                if (data.done && onComplete) {
-                    onComplete();
-                    if (socket) {
-                        socket.close();
-                    }
-                }
-            } catch (error) {
-                console.error('解析WebSocket消息失败:', error);
-            }
-        };
-
-        socket.onerror = (error) => {
-            console.error('WebSocket错误:', error);
-        };
-
-        socket.onclose = () => {
-            console.log('WebSocket连接已关闭');
-        };
-    };
-
     return {
         sendMessage: async (
             message: string,
@@ -333,7 +310,30 @@ export const createStreamingChatService = (
             options: { modelName?: string; temperature?: number } = {}
         ): Promise<void> => {
             try {
-                connectWebSocket(message, conversationId, options);
+                // 关闭之前的连接
+                if (eventSource) {
+                    eventSource.close();
+                }
+
+                // 创建 SSE 连接
+                const params = new URLSearchParams({
+                    userMessage: message
+                });
+                const url = `${apiBaseUrl}/chat/stream?${params.toString()}`;
+                eventSource = new EventSource(url);
+
+                eventSource.onmessage = (event) => {
+                    onChunk(event.data);
+                };
+
+                eventSource.onerror = (error) => {
+                    console.error('SSE错误:', error);
+                    eventSource?.close();
+                    if (onComplete) {
+                        onComplete();
+                    }
+                };
+
             } catch (error) {
                 console.error('流式聊天失败:', error);
                 throw error;
@@ -342,8 +342,8 @@ export const createStreamingChatService = (
 
         // 关闭连接
         close: () => {
-            if (socket && socket.readyState === WebSocket.OPEN) {
-                socket.close();
+            if (eventSource) {
+                eventSource.close();
             }
         }
     };

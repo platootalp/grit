@@ -24,10 +24,44 @@ const formattedContent = computed(() => {
     const highlightedCode = hljs.highlight(validLanguage, code).value
     return `<pre><code class="hljs ${validLanguage}">${highlightedCode}</code></pre>`
   }
+
+  // 自定义段落渲染
+  renderer.paragraph = (text) => {
+    return `<p class="mb-4">${text}</p>`
+  }
+
+  // 自定义标题渲染
+  renderer.heading = (text, level) => {
+    const sizes = {
+      1: 'text-4xl',
+      2: 'text-3xl',
+      3: 'text-2xl',
+      4: 'text-xl',
+      5: 'text-lg',
+      6: 'text-base'
+    }
+    const size = sizes[level as keyof typeof sizes] || 'text-base'
+    return `<h${level} class="font-bold ${size} mb-4">${text}</h${level}>`
+  }
   
-  marked.setOptions({ renderer })
+  marked.setOptions({
+    renderer,
+    breaks: true,      // 将换行符转换为 <br>
+    gfm: true,         // 启用 GitHub 风格的 Markdown
+    pedantic: false    // 尽量不要用严格的 CommonMark 模式
+  })
   
-  return marked(props.content)
+  try {
+    // 使用 DOMParser 解析 HTML 实体
+    const parser = new DOMParser()
+    const decodedContent = parser.parseFromString(props.content, 'text/html').body.textContent || ''
+    
+    // 解析 Markdown
+    return marked(decodedContent)
+  } catch (error) {
+    console.error('解析内容失败:', error)
+    return props.content // 降级处理：直接显示原文
+  }
 })
 
 const messageClass = computed(() => {
