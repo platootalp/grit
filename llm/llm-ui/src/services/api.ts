@@ -263,6 +263,14 @@ export const apiService = {
 };
 
 // 创建流式聊天服务
+import { marked } from "marked";
+
+// 配置 marked
+marked.setOptions({
+    breaks: true,  // 将换行符转换为 <br>
+    gfm: true      // 启用 GitHub 风格的 Markdown
+});
+
 export const createStreamingChatService = (
     onChunk: (content: string) => void,
     onComplete?: () => void
@@ -281,25 +289,29 @@ export const createStreamingChatService = (
                     const fullResponse = await generateMockResponse(message);
 
                     // 模拟逐字发送
-                    const words = fullResponse.split(' ');
+                    const words = fullResponse.split(" ");
                     for (const word of words) {
-                        await new Promise((resolve) => setTimeout(resolve, 100 + Math.random() * 200));
-                        onChunk(word + ' ');
+                        await new Promise((resolve) =>
+                            setTimeout(resolve, 100 + Math.random() * 200)
+                        );
+                        // 转换 Markdown 并发送
+                        const htmlContent = marked.parse(word + " ") as string;
+                        onChunk(htmlContent);
                     }
 
                     if (onComplete) {
                         onComplete();
                     }
                 } catch (error) {
-                    console.error('流式聊天失败:', error);
+                    console.error("流式聊天失败:", error);
                     throw error;
                 }
             },
 
             // 关闭连接
             close: () => {
-                console.log('关闭模拟流式连接');
-            }
+                console.log("关闭模拟流式连接");
+            },
         };
     }
 
@@ -317,25 +329,50 @@ export const createStreamingChatService = (
 
                 // 创建 SSE 连接
                 const params = new URLSearchParams({
-                    userMessage: message
+                    userMessage: message,
                 });
                 const url = `${apiBaseUrl}/chat/stream?${params.toString()}`;
                 eventSource = new EventSource(url);
 
+                let completeResponse = '';
+
                 eventSource.onmessage = (event) => {
-                    onChunk(event.data);
+                    if (typeof event.data === 'string') {
+                        try {
+                            // 只处理当前接收到的数据块
+                            const currentChunk = event.data;
+
+                            // 保存收到的数据以便调试或其他用途
+                            completeResponse += currentChunk;
+
+                            // 处理当前块的换行
+                            const processedChunk = currentChunk.replace(/\n/g, '\n\n');
+
+                            // 解析当前块为HTML并确保返回string类型
+                            const htmlContent = marked.parse(processedChunk) as string;
+
+                            // 发送渲染后的HTML内容
+                            onChunk(htmlContent);
+
+                            // 记录日志
+                            console.log('收到新数据块:', currentChunk);
+                        } catch (error) {
+                            console.error('解析消息失败:', error);
+                            // 降级处理：直接显示原始文本
+                            onChunk(`<pre>${event.data}</pre>`);
+                        }
+                    }
                 };
 
                 eventSource.onerror = (error) => {
-                    console.error('SSE错误:', error);
+                    console.error("SSE错误:", error);
                     eventSource?.close();
                     if (onComplete) {
                         onComplete();
                     }
                 };
-
             } catch (error) {
-                console.error('流式聊天失败:', error);
+                console.error("流式聊天失败:", error);
                 throw error;
             }
         },
@@ -345,6 +382,6 @@ export const createStreamingChatService = (
             if (eventSource) {
                 eventSource.close();
             }
-        }
+        },
     };
-}; 
+};
