@@ -26,26 +26,12 @@
 
 	<dependencyManagement>
 		<dependencies>
-
 			<dependency>
 				<groupId>dev.langchain4j</groupId>
 				<artifactId>langchain4j-bom</artifactId>
 				<version>${langchain4j.version}</version>
 				<type>pom</type>
 				<scope>import</scope>
-			</dependency>
-			<!-- LangChain4j 核心库 -->
-			<dependency>
-				<groupId>dev.langchain4j</groupId>
-				<artifactId>langchain4j</artifactId>
-				<version>${langchain4j.version}</version>
-			</dependency>
-
-			<!-- 适配 Reactor，支持响应式 -->
-			<dependency>
-				<groupId>dev.langchain4j</groupId>
-				<artifactId>langchain4j-reactor</artifactId>
-				<version>${langchain4j.version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>

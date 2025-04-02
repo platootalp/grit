@@ -5,51 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0d64b62-1122-4656-acff-16acbb39d3c7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/llm/llm-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/llm/llm-server/src/main/java/github/grit/llm/service/impl/ModelServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llm/llm-server/src/main/java/github/grit/llm/enums/ModelEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/vector/MilvusTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/compose.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-server/src/main/java/github/grit/llm/config/LlmConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/main/java/github/grit/llm/config/LlmConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-server/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/llm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/llm/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/src/main/java/github/grit/llm/LlmApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/main/java/github/grit/llm/LlmApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/src/main/java/github/grit/llm/config/LlmConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/main/java/github/grit/llm/config/LlmConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/src/main/java/github/grit/llm/config/ModelProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/main/java/github/grit/llm/config/ModelProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/src/main/java/github/grit/llm/controller/ChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/main/java/github/grit/llm/controller/ChatController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/src/main/java/github/grit/llm/controller/ConversationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/main/java/github/grit/llm/controller/ConversationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/src/main/java/github/grit/llm/controller/ModelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/main/java/github/grit/llm/controller/ModelController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/src/main/java/github/grit/llm/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/main/java/github/grit/llm/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/src/main/java/github/grit/llm/facade/response/ModelResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/main/java/github/grit/llm/facade/response/ModelResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/src/main/java/github/grit/llm/service/Copilot.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/main/java/github/grit/llm/service/Copilot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/src/main/java/github/grit/llm/service/IModelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/main/java/github/grit/llm/service/IModelService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/src/main/resources/db/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/main/resources/db/schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/src/test/java/github/grit/llm/LlmApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/LlmApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/message/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/message/src/main/java/github/grit/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/message/src/main/java/github/grit/model/Message.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/message/src/main/java/github/grit/model/Templete.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/github/grit/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/github/grit/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/cache-spring-boot-starter/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/cache-spring-boot-starter/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/cache-spring-boot-starter/src/main/java/github/grit/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/cache-spring-boot-starter/src/main/resources/application.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/pom.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +40,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -113,6 +76,8 @@
     "Application.UnionFind.executor": "Run",
     "JUnit.LlmApplicationTests.testChat.executor": "Run",
     "JUnit.LlmApplicationTests.tokenCount.executor": "Debug",
+    "JUnit.MilvusTest.executor": "Run",
+    "JUnit.MilvusTest.test.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "Maven.llm [org.apache.maven.plugins:maven-clean-plugin:3.3.2:clean].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
@@ -169,7 +134,7 @@
       <recent name="github.grit.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LlmApplication">
+  <component name="RunManager" selected="JUnit.MilvusTest.test">
     <configuration name="LlmApplication" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="github.grit.llm.LlmApplication" />
       <module name="llm-server" />
@@ -239,13 +204,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MilvusTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="llm-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="github.grit.llm.vector.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="github.grit.llm.vector" />
+      <option name="MAIN_CLASS_NAME" value="github.grit.llm.vector.MilvusTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MilvusTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="llm-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="github.grit.llm.vector.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="github.grit.llm.vector" />
+      <option name="MAIN_CLASS_NAME" value="github.grit.llm.vector.MilvusTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Server" />
       <item itemvalue="Application.LlmApplication" />
       <item itemvalue="Application.UnionFind" />
+      <item itemvalue="JUnit.MilvusTest" />
+      <item itemvalue="JUnit.MilvusTest.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MilvusTest.test" />
+        <item itemvalue="JUnit.MilvusTest" />
         <item itemvalue="Application.LlmApplication" />
         <item itemvalue="Application.LlmApplication" />
         <item itemvalue="Application.UnionFind" />

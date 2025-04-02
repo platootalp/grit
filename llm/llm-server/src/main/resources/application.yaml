@@ -21,5 +21,14 @@ langchain4j:
       apiKey: "sk-f755ab0f995c43ffa206424bb2c43de2"
       modelName: "deepseek-v3"
       baseUrl: "https://dashscope.aliyuncs.com/compatible-mode/v1"
+  embeddings:
+    text-embedding-v3:
+      apiKey: "sk-f755ab0f995c43ffa206424bb2c43de2"
+      modelName: "text-embedding-v3"
+      baseUrl: "https://dashscope.aliyuncs.com/compatible-mode/v1"
+    text-embedding-v2:
+      apiKey: "sk-f755ab0f995c43ffa206424bb2c43de2"
+      modelName: "text-embedding-v2"
+      baseUrl: "https://dashscope.aliyuncs.com/compatible-mode/v1"
 
 

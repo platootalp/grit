@@ -17,18 +17,6 @@
 	<description>LLM Server Module</description>
 
 	<dependencies>
-		<!-- Spring Boot Web 支持 -->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-
-		<!-- WebFlux (如果需要异步处理) -->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-webflux</artifactId>
-		</dependency>
-
 		<!-- LLM 相关 -->
 		<dependency>
 			<groupId>dev.langchain4j</groupId>
@@ -38,14 +26,28 @@
 			<groupId>dev.langchain4j</groupId>
 			<artifactId>langchain4j-open-ai-spring-boot-starter</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>dev.langchain4j</groupId>
+			<artifactId>langchain4j-milvus</artifactId>
+		</dependency>
 
+
+		<!-- Spring Boot Web 支持 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<!-- WebFlux (如果需要异步处理) -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-webflux</artifactId>
+		</dependency>
 		<!-- Lombok (可选，编译时自动生成 getter/setter 等) -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<scope>provided</scope>
 		</dependency>
-
 		<!-- 测试支持 -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
