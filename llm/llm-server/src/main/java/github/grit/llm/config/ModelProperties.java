@@ -14,6 +14,7 @@ import java.util.Map;
 public class ModelProperties {
     private Map<String, Model> models;
     private Map<String, Model> streamModels;
+    private Map<String, Model> embeddings;
 
     @Data
     public static class Model {

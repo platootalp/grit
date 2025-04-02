@@ -55,7 +55,7 @@ public class LlmConfig {
     @Bean
     public Map<String, EmbeddingModel> embeddingModelMap(){
         Map<String, EmbeddingModel> modelMap = new HashMap<>();
-        modelProperties.getModels().forEach((name, properties) -> {
+        modelProperties.getEmbeddings().forEach((name, properties) -> {
             EmbeddingModel model = OpenAiEmbeddingModel.builder()
                     .apiKey(properties.getApiKey())
                     .modelName(properties.getModelName())

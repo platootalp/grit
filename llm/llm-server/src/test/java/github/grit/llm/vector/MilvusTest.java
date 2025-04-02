@@ -7,19 +7,15 @@ import dev.langchain4j.data.embedding.Embedding;
 import dev.langchain4j.data.segment.TextSegment;
 import dev.langchain4j.model.embedding.EmbeddingModel;
 import dev.langchain4j.store.embedding.EmbeddingMatch;
+import dev.langchain4j.store.embedding.EmbeddingSearchRequest;
+import dev.langchain4j.store.embedding.EmbeddingSearchResult;
 import dev.langchain4j.store.embedding.EmbeddingStore;
 import dev.langchain4j.store.embedding.milvus.MilvusEmbeddingStore;
 import github.grit.llm.enums.ModelEnum;
-import io.milvus.v2.client.ConnectConfig;
-import io.milvus.v2.client.MilvusClientV2;
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.web.client.RestClient;
-import org.springframework.web.client.RestTemplate;
 
 @SpringBootTest
 public class MilvusTest {
@@ -27,32 +23,72 @@ public class MilvusTest {
 	@Autowired
 	private Map<String, EmbeddingModel> embeddingModelMap;
 
-	private static MilvusClientV2 milvusClient;
+//	private static MilvusClientV2 milvusClient;
+//
+//	@BeforeAll
+//	static void setup() {
+//		ConnectConfig connectConfig = ConnectConfig.builder()
+//				.uri("http://localhost:19530")
+//				.token("root:Milvus")
+//				.build();
+//
+//		milvusClient = new MilvusClientV2(connectConfig);
+//	}
+//
+//	@AfterAll
+//	static void teardown() {
+//		if (milvusClient != null) {
+//			milvusClient.close();
+//		}
+//	}
 
-	@BeforeAll
-	static void setup() {
-		ConnectConfig connectConfig = ConnectConfig.builder()
-				.uri("https://in03-c9ca0cbc11f0bd5.serverless.ali-cn-hangzhou.cloud.zilliz.com.cn:19530")
-				.token("Bearer a5ad07067b0ea51e6d498d6785ac247139fb25723dbb98b81e7a311761e65aba49ac6934b49b4a7c1661288269e7c1c9237929f6")
-				.build();
-
-		milvusClient = new MilvusClientV2(connectConfig);
-	}
-
-	@AfterAll
-	static void teardown() {
-		if (milvusClient != null) {
-			milvusClient.close();
-		}
+	@Test
+	public void dimension(){
+		EmbeddingModel embeddingModel = embeddingModelMap.get(ModelEnum.TEXT_EMBEDDING_V3.getName());
+		System.out.println(embeddingModel.dimension());
 	}
 
 	@Test
-	public void test() {
-		EmbeddingStore<TextSegment> embeddingStore = MilvusEmbeddingStore.builder()
-				.uri("https://in03-7934be782016d47.serverless.gcp-us-west1.cloud.zilliz.com:19530")
-				.token("Bearer 0c7dbd1ad54f5215c314a60810130ef5d6b0c1cfdbbd8fa224ea15da6102714a3b174ee8e0fa4abe09db26b83bf4cc7e30e69325")
+	public void deleteCollection(){
+		MilvusEmbeddingStore store = MilvusEmbeddingStore.builder()
+				.uri("http://localhost:19530")
+				.token("root:Milvus")
 				.collectionName("test_collection")
-				.dimension(384)
+				.dimension(1024)
+				.build();
+		store.dropCollection("test_collection");
+	}
+
+	@Test
+	public void query() {
+		EmbeddingStore<TextSegment> embeddingStore = MilvusEmbeddingStore.builder()
+				.uri("http://localhost:19530")
+				.token("root:Milvus")
+				.collectionName("collection")
+				.dimension(1024)
+				.build();
+
+		EmbeddingModel embeddingModel = embeddingModelMap.get(ModelEnum.TEXT_EMBEDDING_V3.getName());
+		Embedding queryEmbedding = embeddingModel.embed("What is your favourite sport?").content();
+		EmbeddingSearchRequest request = EmbeddingSearchRequest.builder()
+				.queryEmbedding(queryEmbedding)
+				.maxResults(1)
+				.minScore(0.8)
+				.build();
+		EmbeddingSearchResult<TextSegment> result = embeddingStore.search(request);
+		List<EmbeddingMatch<TextSegment>> matches = result.matches();
+		for (EmbeddingMatch<TextSegment> match : matches) {
+			System.out.println(match.score());
+			System.out.println(match.embedded().text());
+		}
+	}
+	@Test
+	public void example() {
+		EmbeddingStore<TextSegment> embeddingStore = MilvusEmbeddingStore.builder()
+				.uri("http://localhost:19530")
+				.token("root:Milvus")
+				.collectionName("collection")
+				.dimension(1024)
 				.build();
 
 		EmbeddingModel embeddingModel = embeddingModelMap.get(ModelEnum.TEXT_EMBEDDING_V3.getName());

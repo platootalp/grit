@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0d64b62-1122-4656-acff-16acbb39d3c7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/llm/llm-server/src/main/java/github/grit/llm/enums/ModelEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/vector/MilvusTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note/AI/python.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/llm-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/llm/llm-server/src/main/java/github/grit/llm/config/LlmConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/main/java/github/grit/llm/config/LlmConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/llm-server/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/llm/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-server/src/main/java/github/grit/llm/config/ModelProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/main/java/github/grit/llm/config/ModelProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/vector/MilvusTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/vector/MilvusTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,20 +54,10 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="customMavenHome" value="E:\Java\maven\apache-maven-3.6.1" />
-        <option name="localRepository" value="E:\Java\maven\apache-maven-3.6.1\repository" />
+        <option name="customMavenHome" value="E:\Java\maven\apache-maven-3.9.9" />
+        <option name="localRepository" value="E:\Java\maven\repository" />
         <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
-        <option name="userSettingsFile" value="E:\Java\maven\apache-maven-3.6.1\conf\settings.xml" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="customMavenHome" value="E:\Java\maven\apache-maven-3.6.1" />
-        <option name="localRepository" value="E:\Java\maven\apache-maven-3.6.1\repository" />
-        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
-        <option name="userSettingsFile" value="E:\Java\maven\apache-maven-3.6.1\conf\settings.xml" />
+        <option name="userSettingsFile" value="E:\Java\maven\apache-maven-3.9.9\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -97,6 +83,8 @@
     "Application.UnionFind.executor": "Run",
     "JUnit.LlmApplicationTests.testChat.executor": "Run",
     "JUnit.LlmApplicationTests.tokenCount.executor": "Debug",
+    "JUnit.MilvusTest.deleteCollection.executor": "Run",
+    "JUnit.MilvusTest.dimension.executor": "Run",
     "JUnit.MilvusTest.executor": "Run",
     "JUnit.MilvusTest.test.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
@@ -123,7 +111,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.16920471",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "Code Search",
     "ts.external.directory.path": "E:\\software\\IntelliJ IDEA 2024.3.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   },
@@ -146,11 +134,11 @@
       <recent name="$PROJECT_DIR$/blog-common/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\project\grit\llm\llm-server" />
       <recent name="$PROJECT_DIR$/llm/llm-server" />
       <recent name="$PROJECT_DIR$/llm" />
       <recent name="$PROJECT_DIR$/" />
       <recent name="$PROJECT_DIR$/note/llm应用/对话平台" />
-      <recent name="E:\project\grit" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="github.grit" />
@@ -159,7 +147,7 @@
       <recent name="github.grit.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MilvusTest.test">
+  <component name="RunManager" selected="JUnit.MilvusTest.deleteCollection">
     <configuration name="LlmApplication" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="github.grit.llm.LlmApplication" />
       <module name="llm-server" />
@@ -180,13 +168,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="github.grit.App" />
-      <module name="message" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UnionFind" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="github.grit.datastructure.UnionFind" />
       <module name="algorithm" />
@@ -213,23 +194,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.testChainContext" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="design-pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="github.grif.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="github.grif" />
-      <option name="MAIN_CLASS_NAME" value="github.grif.AppTest" />
-      <option name="METHOD_NAME" value="testChainContext" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MilvusTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MilvusTest.deleteCollection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="llm-server" />
       <extension name="coverage">
         <pattern>
@@ -239,12 +204,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="github.grit.llm.vector" />
       <option name="MAIN_CLASS_NAME" value="github.grit.llm.vector.MilvusTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="deleteCollection" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MilvusTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MilvusTest.dimension" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="llm-server" />
       <extension name="coverage">
         <pattern>
@@ -254,8 +220,31 @@
       </extension>
       <option name="PACKAGE_NAME" value="github.grit.llm.vector" />
       <option name="MAIN_CLASS_NAME" value="github.grit.llm.vector.MilvusTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="METHOD_NAME" value="dimension" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MilvusTest.query" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="llm-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="github.grit.llm.vector.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="github.grit.llm.vector" />
+      <option name="MAIN_CLASS_NAME" value="github.grit.llm.vector.MilvusTest" />
+      <option name="METHOD_NAME" value="query" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LlmApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="llm-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="github.grit.llm.LlmApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -264,20 +253,28 @@
       <item itemvalue="Application.Server" />
       <item itemvalue="Application.LlmApplication" />
       <item itemvalue="Application.UnionFind" />
-      <item itemvalue="Application.Generator" />
-      <item itemvalue="JUnit.LlmApplicationTests.testChat" />
-      <item itemvalue="JUnit.AppTest.testChainContext" />
+      <item itemvalue="JUnit.MilvusTest.deleteCollection" />
+      <item itemvalue="JUnit.MilvusTest.dimension" />
+      <item itemvalue="JUnit.MilvusTest.query" />
       <item itemvalue="Spring Boot.LlmApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MilvusTest.test" />
-        <item itemvalue="JUnit.MilvusTest" />
+        <item itemvalue="JUnit.MilvusTest.deleteCollection" />
+        <item itemvalue="JUnit.MilvusTest.query" />
+        <item itemvalue="JUnit.MilvusTest.dimension" />
         <item itemvalue="Application.LlmApplication" />
         <item itemvalue="Application.LlmApplication" />
-        <item itemvalue="Application.UnionFind" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.117" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.117" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -297,6 +294,7 @@
       <workItem from="1742090911760" duration="15187000" />
       <workItem from="1742645498191" duration="1932000" />
       <workItem from="1742739774256" duration="540000" />
+      <workItem from="1743597560839" duration="5252000" />
     </task>
     <servers />
   </component>
