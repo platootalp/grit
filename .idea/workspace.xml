@@ -7,6 +7,7 @@
     <list default="true" id="d0d64b62-1122-4656-acff-16acbb39d3c7" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/llm/llm-server/src/main/java/github/grit/llm/enums/ModelEnum.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/vector/MilvusTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note/AI/python.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/llm/llm-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/llm/llm-server/src/main/java/github/grit/llm/config/LlmConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/main/java/github/grit/llm/config/LlmConfig.java" afterDir="false" />
@@ -54,6 +55,26 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="E:\Java\maven\apache-maven-3.6.1" />
+        <option name="localRepository" value="E:\Java\maven\apache-maven-3.6.1\repository" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="E:\Java\maven\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="E:\Java\maven\apache-maven-3.6.1" />
+        <option name="localRepository" value="E:\Java\maven\apache-maven-3.6.1\repository" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="E:\Java\maven\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -94,15 +115,16 @@
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/lijunyi/road/grit",
+    "last_opened_file_path": "E:/project/llm/open-webui",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.3816092",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "project.structure.side.proportion": "0.16920471",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "ts.external.directory.path": "E:\\software\\IntelliJ IDEA 2024.3.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -112,6 +134,9 @@
     ]
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/starter/cache-spring-boot-starter" />
@@ -239,8 +264,10 @@
       <item itemvalue="Application.Server" />
       <item itemvalue="Application.LlmApplication" />
       <item itemvalue="Application.UnionFind" />
-      <item itemvalue="JUnit.MilvusTest" />
-      <item itemvalue="JUnit.MilvusTest.test" />
+      <item itemvalue="Application.Generator" />
+      <item itemvalue="JUnit.LlmApplicationTests.testChat" />
+      <item itemvalue="JUnit.AppTest.testChainContext" />
+      <item itemvalue="Spring Boot.LlmApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -268,6 +295,8 @@
       <workItem from="1742047707423" duration="888000" />
       <workItem from="1742048609212" duration="3815000" />
       <workItem from="1742090911760" duration="15187000" />
+      <workItem from="1742645498191" duration="1932000" />
+      <workItem from="1742739774256" duration="540000" />
     </task>
     <servers />
   </component>
@@ -287,6 +316,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
