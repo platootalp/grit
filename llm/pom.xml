@@ -18,6 +18,7 @@
 
 	<modules>
 		<module>llm-server</module>
+		<module>llm-common</module>
 	</modules>
 
 	<properties>

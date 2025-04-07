@@ -5,10 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0d64b62-1122-4656-acff-16acbb39d3c7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/llm/llm-common/src/main/java/github/grit/common/facade/ICode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llm/llm-common/src/main/java/github/grit/common/facade/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llm/llm-common/src/main/java/github/grit/common/facade/ResultCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llm/llm-server/src/main/java/github/grit/llm/controller/DocumentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llm/llm-server/src/main/resources/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/vector/document/DocumentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/vector/document/TroubleTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note/design/template.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/llm-server/src/main/java/github/grit/llm/config/LlmConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/main/java/github/grit/llm/config/LlmConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/llm-server/src/main/java/github/grit/llm/config/ModelProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/main/java/github/grit/llm/config/ModelProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/vector/MilvusTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/vector/MilvusTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-common/src/main/java/github/grit/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-common/src/test/java/github/grit/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/vector/MilvusTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/vector/store/MilvusTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/llm/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +47,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -50,16 +61,6 @@
 }</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="customMavenHome" value="E:\Java\maven\apache-maven-3.9.9" />
-        <option name="localRepository" value="E:\Java\maven\repository" />
-        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
-        <option name="userSettingsFile" value="E:\Java\maven\apache-maven-3.9.9\conf\settings.xml" />
-      </MavenGeneralSettings>
-    </option>
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -81,6 +82,9 @@
     "Application.LlmApplication (1).executor": "Run",
     "Application.LlmApplication.executor": "Run",
     "Application.UnionFind.executor": "Run",
+    "JUnit.DocumentTest.documentSplitter.executor": "Run",
+    "JUnit.DocumentTest.documentTransformer.executor": "Run",
+    "JUnit.DocumentTest.loadDocument.executor": "Run",
     "JUnit.LlmApplicationTests.testChat.executor": "Run",
     "JUnit.LlmApplicationTests.tokenCount.executor": "Debug",
     "JUnit.MilvusTest.deleteCollection.executor": "Run",
@@ -103,7 +107,7 @@
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/project/llm/open-webui",
+    "last_opened_file_path": "/Users/lijunyi/road/grit",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -111,7 +115,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.16920471",
-    "settings.editor.selected.configurable": "Code Search",
+    "settings.editor.selected.configurable": "MavenSettings",
     "ts.external.directory.path": "E:\\software\\IntelliJ IDEA 2024.3.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   },
@@ -127,18 +131,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/llm/llm-common/src/main/java/github/grit" />
       <recent name="$PROJECT_DIR$/starter/cache-spring-boot-starter" />
       <recent name="$PROJECT_DIR$/message" />
       <recent name="$PROJECT_DIR$/blog-admin/src/main/java/github/grit" />
       <recent name="$PROJECT_DIR$/blog-ui/src" />
-      <recent name="$PROJECT_DIR$/blog-common/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\project\grit\llm\llm-server" />
+      <recent name="$PROJECT_DIR$/llm/llm-server/src/main/resources" />
+      <recent name="$PROJECT_DIR$/llm/llm-server/src" />
       <recent name="$PROJECT_DIR$/llm/llm-server" />
+      <recent name="E:\project\grit\llm\llm-server" />
       <recent name="$PROJECT_DIR$/llm" />
-      <recent name="$PROJECT_DIR$/" />
-      <recent name="$PROJECT_DIR$/note/llm应用/对话平台" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="github.grit" />
@@ -147,20 +151,7 @@
       <recent name="github.grit.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MilvusTest.deleteCollection">
-    <configuration name="LlmApplication" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="github.grit.llm.LlmApplication" />
-      <module name="llm-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="github.grit.llm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.DocumentTest.documentSplitter">
     <configuration name="Server" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="github.grit.App" />
       <module name="message" />
@@ -181,15 +172,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnionFind" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="github.grit.datastructure.UnionFind" />
-      <module name="algorithm" />
+    <configuration name="DocumentTest.documentSplitter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="llm-server" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="github.grit.datastructure.*" />
+          <option name="PATTERN" value="github.grit.llm.vector.document.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="github.grit.llm.vector.document" />
+      <option name="MAIN_CLASS_NAME" value="github.grit.llm.vector.document.DocumentTest" />
+      <option name="METHOD_NAME" value="documentSplitter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DocumentTest.documentTransformer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="llm-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="github.grit.llm.vector.document.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="github.grit.llm.vector.document" />
+      <option name="MAIN_CLASS_NAME" value="github.grit.llm.vector.document.DocumentTest" />
+      <option name="METHOD_NAME" value="documentTransformer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DocumentTest.loadDocument" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="llm-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="github.grit.llm.vector.document.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="github.grit.llm.vector.document" />
+      <option name="MAIN_CLASS_NAME" value="github.grit.llm.vector.document.DocumentTest" />
+      <option name="METHOD_NAME" value="loadDocument" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -198,29 +224,13 @@
       <module name="llm-server" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="github.grit.llm.vector.*" />
+          <option name="PATTERN" value="github.grit.llm.vector.store.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="github.grit.llm.vector" />
-      <option name="MAIN_CLASS_NAME" value="github.grit.llm.vector.MilvusTest" />
+      <option name="PACKAGE_NAME" value="github.grit.llm.vector.store" />
+      <option name="MAIN_CLASS_NAME" value="github.grit.llm.vector.store.MilvusTest" />
       <option name="METHOD_NAME" value="deleteCollection" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MilvusTest.dimension" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="llm-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="github.grit.llm.vector.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="github.grit.llm.vector" />
-      <option name="MAIN_CLASS_NAME" value="github.grit.llm.vector.MilvusTest" />
-      <option name="METHOD_NAME" value="dimension" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -230,12 +240,12 @@
       <module name="llm-server" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="github.grit.llm.vector.*" />
+          <option name="PATTERN" value="github.grit.llm.vector.store.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="github.grit.llm.vector" />
-      <option name="MAIN_CLASS_NAME" value="github.grit.llm.vector.MilvusTest" />
+      <option name="PACKAGE_NAME" value="github.grit.llm.vector.store" />
+      <option name="MAIN_CLASS_NAME" value="github.grit.llm.vector.store.MilvusTest" />
       <option name="METHOD_NAME" value="query" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -251,30 +261,21 @@
     </configuration>
     <list>
       <item itemvalue="Application.Server" />
-      <item itemvalue="Application.LlmApplication" />
-      <item itemvalue="Application.UnionFind" />
+      <item itemvalue="JUnit.DocumentTest.documentSplitter" />
+      <item itemvalue="JUnit.DocumentTest.documentTransformer" />
+      <item itemvalue="JUnit.DocumentTest.loadDocument" />
       <item itemvalue="JUnit.MilvusTest.deleteCollection" />
-      <item itemvalue="JUnit.MilvusTest.dimension" />
       <item itemvalue="JUnit.MilvusTest.query" />
-      <item itemvalue="Spring Boot.LlmApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DocumentTest.documentSplitter" />
+        <item itemvalue="JUnit.DocumentTest.documentTransformer" />
+        <item itemvalue="JUnit.DocumentTest.loadDocument" />
         <item itemvalue="JUnit.MilvusTest.deleteCollection" />
         <item itemvalue="JUnit.MilvusTest.query" />
-        <item itemvalue="JUnit.MilvusTest.dimension" />
-        <item itemvalue="Application.LlmApplication" />
-        <item itemvalue="Application.LlmApplication" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.117" />
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.117" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

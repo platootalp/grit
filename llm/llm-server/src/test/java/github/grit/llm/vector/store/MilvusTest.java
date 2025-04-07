@@ -1,4 +1,4 @@
-package github.grit.llm.vector;
+package github.grit.llm.vector.store;
 
 import java.util.List;
 import java.util.Map;
@@ -102,10 +102,10 @@ public class MilvusTest {
 		embeddingStore.add(embedding2, segment2);
 
 		Embedding queryEmbedding = embeddingModel.embed("What is your favourite sport?").content();
-		List<EmbeddingMatch<TextSegment>> relevant = embeddingStore.findRelevant(queryEmbedding, 1);
-		EmbeddingMatch<TextSegment> embeddingMatch = relevant.get(0);
-
-		System.out.println(embeddingMatch.score()); // 0.8144287765026093
-		System.out.println(embeddingMatch.embedded().text()); // I like football.
+//		List<EmbeddingMatch<TextSegment>> relevant = embeddingStore.findRelevant(queryEmbedding, 1);
+//		EmbeddingMatch<TextSegment> embeddingMatch = relevant.get(0);
+//
+//		System.out.println(embeddingMatch.score()); // 0.8144287765026093
+//		System.out.println(embeddingMatch.embedded().text()); // I like football.
 	}
 }

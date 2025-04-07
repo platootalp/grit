@@ -17,6 +17,11 @@
 	<description>LLM Server Module</description>
 
 	<dependencies>
+		<dependency>
+			<groupId>github.grit</groupId>
+			<artifactId>llm-common</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 		<!-- LLM 相关 -->
 		<dependency>
 			<groupId>dev.langchain4j</groupId>
@@ -30,7 +35,10 @@
 			<groupId>dev.langchain4j</groupId>
 			<artifactId>langchain4j-milvus</artifactId>
 		</dependency>
-
+		<dependency>
+			<groupId>dev.langchain4j</groupId>
+			<artifactId>langchain4j-document-loader-github</artifactId>
+		</dependency>
 
 		<!-- Spring Boot Web 支持 -->
 		<dependency>
