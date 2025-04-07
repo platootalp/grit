@@ -43,6 +43,10 @@
 			<groupId>dev.langchain4j</groupId>
 			<artifactId>langchain4j-document-parser-apache-tika</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>dev.langchain4j</groupId>
+			<artifactId>langchain4j-web-search-engine-google-custom</artifactId>
+		</dependency>
 
 		<!-- Spring Boot Web 支持 -->
 		<dependency>

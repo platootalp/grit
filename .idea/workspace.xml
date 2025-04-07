@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0d64b62-1122-4656-acff-16acbb39d3c7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/util/EmbeddingUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/vector/store/EmbeddingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note/direction/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/llm-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/vector/document/DocumentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/vector/document/DocumentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/vector/document/TroubleTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/TroubleTransformer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/util/EmbeddingUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/util/LangChain4jUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/vector/rag/AdvancedRagTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/vector/rag/AdvancedRagTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/vector/store/EmbeddingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/vector/store/EmbeddingTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +70,7 @@
     "Application.LlmApplication (1).executor": "Run",
     "Application.LlmApplication.executor": "Run",
     "Application.UnionFind.executor": "Run",
+    "JUnit.AdvancedRagTest.query.executor": "Run",
     "JUnit.DocumentTest.documentSplitter.executor": "Run",
     "JUnit.DocumentTest.documentTransformer.executor": "Run",
     "JUnit.DocumentTest.loadDocument.executor": "Run",
@@ -147,10 +144,26 @@
       <recent name="github.grit.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EmbeddingTest.embeddingStoreIngestor">
+  <component name="RunManager" selected="JUnit.AdvancedRagTest.query">
     <configuration name="Server" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="github.grit.App" />
       <module name="message" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdvancedRagTest.query" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="llm-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="github.grit.llm.vector.rag.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="github.grit.llm.vector.rag" />
+      <option name="MAIN_CLASS_NAME" value="github.grit.llm.vector.rag.AdvancedRagTest" />
+      <option name="METHOD_NAME" value="query" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -166,22 +179,6 @@
       <option name="PACKAGE_NAME" value="github.grit.llm.vector.document" />
       <option name="MAIN_CLASS_NAME" value="github.grit.llm.vector.document.DocumentTest" />
       <option name="METHOD_NAME" value="documentSplitter" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DocumentTest.documentTransformer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="llm-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="github.grit.llm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="github.grit.llm.vector.document" />
-      <option name="MAIN_CLASS_NAME" value="github.grit.llm.vector.document.DocumentTest" />
-      <option name="METHOD_NAME" value="documentTransformer" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -244,19 +241,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Server" />
+      <item itemvalue="JUnit.AdvancedRagTest.query" />
       <item itemvalue="JUnit.EmbeddingTest.embed" />
       <item itemvalue="JUnit.EmbeddingTest.embeddingModel" />
       <item itemvalue="JUnit.EmbeddingTest.embeddingStoreIngestor" />
       <item itemvalue="JUnit.DocumentTest.documentSplitter" />
-      <item itemvalue="JUnit.DocumentTest.documentTransformer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AdvancedRagTest.query" />
         <item itemvalue="JUnit.EmbeddingTest.embeddingStoreIngestor" />
         <item itemvalue="JUnit.EmbeddingTest.embed" />
         <item itemvalue="JUnit.EmbeddingTest.embeddingModel" />
         <item itemvalue="JUnit.DocumentTest.documentSplitter" />
-        <item itemvalue="JUnit.DocumentTest.documentTransformer" />
       </list>
     </recent_temporary>
   </component>

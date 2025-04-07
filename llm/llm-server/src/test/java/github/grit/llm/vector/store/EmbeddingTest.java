@@ -13,7 +13,7 @@ import dev.langchain4j.store.embedding.EmbeddingStoreIngestor;
 import dev.langchain4j.store.embedding.IngestionResult;
 import dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore;
 import github.grit.llm.enums.ModelEnum;
-import github.grit.llm.util.EmbeddingUtil;
+import github.grit.llm.util.LangChain4jUtil;
 import org.junit.jupiter.api.Test;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,20 +23,20 @@ import org.springframework.boot.test.context.SpringBootTest;
 public class EmbeddingTest {
 
 	@Autowired
-	private EmbeddingUtil embeddingUtil;
+	private LangChain4jUtil langChain4jUtil;
 
 	@Test
 	public void dimension(){
-		EmbeddingModel embeddingModel = embeddingUtil.getEmbeddingModel("text-embedding-v3");
+		EmbeddingModel embeddingModel = langChain4jUtil.getEmbeddingModel("text-embedding-v3");
 		System.out.println(embeddingModel.dimension());
 	}
 
 
 	@Test
 	public void embeddingStore(){
-		List<TextSegment> fileSystemTextSegments = embeddingUtil.getFileSystemTextSegments("/Users/lijunyi/road/grit/note/AI/python.md");
+		List<TextSegment> fileSystemTextSegments = langChain4jUtil.getFileSystemTextSegments("/Users/lijunyi/road/grit/note/AI/python.md");
 		// 获取embedding模型
-		EmbeddingModel embeddingModel = embeddingUtil.getEmbeddingModel(ModelEnum.TEXT_EMBEDDING_V3.getName());
+		EmbeddingModel embeddingModel = langChain4jUtil.getEmbeddingModel(ModelEnum.TEXT_EMBEDDING_V3.getName());
 //		fileSystemTextSegments.forEach(item->{
 //			Response<Embedding> response = embeddingModel.embed(item);
 //			System.out.println(response);
@@ -53,10 +53,10 @@ public class EmbeddingTest {
 	@Test
 	public void embeddingStoreIngestor(){
 		EmbeddingStoreIngestor ingestor = EmbeddingStoreIngestor.builder()
-				.embeddingModel(embeddingUtil.getEmbeddingModel(ModelEnum.TEXT_EMBEDDING_V3.getName()))
+				.embeddingModel(langChain4jUtil.getEmbeddingModel(ModelEnum.TEXT_EMBEDDING_V3.getName()))
 				.embeddingStore(new InMemoryEmbeddingStore<>())
 				.build();
-		Document document = embeddingUtil.loadDocument("/Users/lijunyi/road/grit/note/direction/test.txt");
+		Document document = langChain4jUtil.loadDocument("/Users/lijunyi/road/grit/note/direction/test.txt");
 		IngestionResult ingest = ingestor.ingest(document);
 		System.out.println(ingest.tokenUsage());
 	}
