@@ -10,9 +10,11 @@ import dev.langchain4j.data.document.parser.TextDocumentParser;
 import dev.langchain4j.data.document.source.ClassPathSource;
 import dev.langchain4j.data.document.source.FileSystemSource;
 import dev.langchain4j.data.document.splitter.DocumentByParagraphSplitter;
+import dev.langchain4j.data.document.splitter.DocumentBySentenceSplitter;
 import dev.langchain4j.data.segment.TextSegment;
 import dev.langchain4j.model.openai.OpenAiChatModelName;
 import dev.langchain4j.model.openai.OpenAiTokenizer;
+import github.grit.llm.TroubleTransformer;
 import org.junit.jupiter.api.Test;
 
 import org.springframework.boot.test.context.SpringBootTest;
@@ -45,11 +47,12 @@ public class DocumentTest {
 	@Test
 	public void documentSplitter(){
 		Document document = DocumentLoader.load(FileSystemSource.from("/Users/lijunyi/road/grit/note/AI/AI学习路径.md"), new TextDocumentParser());
-		System.out.println(document.toTextSegment());
-		DocumentSplitter splitter = new DocumentByParagraphSplitter(1024,16, new OpenAiTokenizer(OpenAiChatModelName.GPT_4));
+//		System.out.println(document.toTextSegment());
+		DocumentSplitter documentBySentenceSplitter = new DocumentBySentenceSplitter(128, 0, new OpenAiTokenizer(OpenAiChatModelName.GPT_4));
+		DocumentSplitter splitter = new DocumentByParagraphSplitter(1024,0, new OpenAiTokenizer(OpenAiChatModelName.GPT_4), documentBySentenceSplitter);
 		List<TextSegment> textSegmentList = splitter.split(document);
-		textSegmentList.forEach(System.out::println);
-		//		System.out.println(document.text());
-		//		System.out.println(document.metadata());
+		for (TextSegment textSegment : textSegmentList) {
+			System.out.println(textSegment.text() + textSegment.metadata() +"\n\n\n");
+		}
 	}
 }

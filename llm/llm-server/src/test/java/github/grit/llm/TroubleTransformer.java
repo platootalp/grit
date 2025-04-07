@@ -1,4 +1,4 @@
-package github.grit.llm.vector.document;
+package github.grit.llm;
 
 import dev.langchain4j.data.document.Document;
 import dev.langchain4j.data.document.DocumentTransformer;
