@@ -6,11 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="d0d64b62-1122-4656-acff-16acbb39d3c7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-server/src/main/java/github/grit/llm/enums/ModelEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/main/java/github/grit/llm/enums/ModelEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/rag/AdvancedRagTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/rag/AdvancedRagTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/util/LangChain4jUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/util/LangChain4jUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/vector/document/DocumentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/vector/rag/DocumentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/vector/rag/AdvancedRagTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/vector/rag/AdvancedRagTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/vector/store/EmbeddingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/vector/rag/EmbeddingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/vector/store/MilvusTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/vector/rag/MilvusTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +73,7 @@
     "Application.LlmApplication.executor": "Run",
     "Application.UnionFind.executor": "Run",
     "JUnit.AdvancedRagTest.query.executor": "Run",
+    "JUnit.AdvancedRagTest.retrievalAugmentor.executor": "Debug",
     "JUnit.DocumentTest.documentSplitter.executor": "Run",
     "JUnit.DocumentTest.documentTransformer.executor": "Run",
     "JUnit.DocumentTest.loadDocument.executor": "Run",
@@ -147,7 +147,7 @@
       <recent name="github.grit.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AdvancedRagTest.query">
+  <component name="RunManager" selected="JUnit.AdvancedRagTest.retrievalAugmentor">
     <configuration name="Server" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="github.grit.App" />
       <module name="message" />
@@ -171,17 +171,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DocumentTest.documentSplitter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AdvancedRagTest.retrievalAugmentor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="llm-server" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="github.grit.llm.*" />
+          <option name="PATTERN" value="github.grit.llm.rag.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="github.grit.llm.vector.rag" />
-      <option name="MAIN_CLASS_NAME" value="github.grit.llm.vector.rag.DocumentTest" />
-      <option name="METHOD_NAME" value="documentSplitter" />
+      <option name="PACKAGE_NAME" value="github.grit.llm.rag" />
+      <option name="MAIN_CLASS_NAME" value="github.grit.llm.rag.AdvancedRagTest" />
+      <option name="METHOD_NAME" value="retrievalAugmentor" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -245,18 +245,18 @@
     <list>
       <item itemvalue="Application.Server" />
       <item itemvalue="JUnit.AdvancedRagTest.query" />
+      <item itemvalue="JUnit.AdvancedRagTest.retrievalAugmentor" />
       <item itemvalue="JUnit.EmbeddingTest.embed" />
       <item itemvalue="JUnit.EmbeddingTest.embeddingModel" />
       <item itemvalue="JUnit.EmbeddingTest.embeddingStoreIngestor" />
-      <item itemvalue="JUnit.DocumentTest.documentSplitter" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AdvancedRagTest.retrievalAugmentor" />
         <item itemvalue="JUnit.AdvancedRagTest.query" />
         <item itemvalue="JUnit.EmbeddingTest.embeddingStoreIngestor" />
         <item itemvalue="JUnit.EmbeddingTest.embed" />
         <item itemvalue="JUnit.EmbeddingTest.embeddingModel" />
-        <item itemvalue="JUnit.DocumentTest.documentSplitter" />
       </list>
     </recent_temporary>
   </component>
@@ -312,6 +312,11 @@
           <url>jar://$MAVEN_REPOSITORY$/dev/langchain4j/langchain4j-web-search-engine-google-custom/1.0.0-beta2/langchain4j-web-search-engine-google-custom-1.0.0-beta2.jar!/dev/langchain4j/web/search/google/customsearch/GoogleCustomSearchApiClient.class</url>
           <line>72</line>
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/rag/AdvancedRagTest.java</url>
+          <line>174</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
