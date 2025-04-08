@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0d64b62-1122-4656-acff-16acbb39d3c7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/util/EmbeddingUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/util/LangChain4jUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/util/LangChain4jUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/util/LangChain4jUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/vector/document/DocumentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/vector/rag/DocumentTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/vector/rag/AdvancedRagTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/vector/rag/AdvancedRagTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/vector/store/EmbeddingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/vector/store/EmbeddingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/vector/store/EmbeddingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/vector/rag/EmbeddingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/vector/store/MilvusTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/vector/rag/MilvusTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,8 +179,8 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="github.grit.llm.vector.document" />
-      <option name="MAIN_CLASS_NAME" value="github.grit.llm.vector.document.DocumentTest" />
+      <option name="PACKAGE_NAME" value="github.grit.llm.vector.rag" />
+      <option name="MAIN_CLASS_NAME" value="github.grit.llm.vector.rag.DocumentTest" />
       <option name="METHOD_NAME" value="documentSplitter" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -188,12 +191,12 @@
       <module name="llm-server" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="github.grit.llm.vector.store.*" />
+          <option name="PATTERN" value="github.grit.llm.vector.rag.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="github.grit.llm.vector.store" />
-      <option name="MAIN_CLASS_NAME" value="github.grit.llm.vector.store.EmbeddingTest" />
+      <option name="PACKAGE_NAME" value="github.grit.llm.vector.rag" />
+      <option name="MAIN_CLASS_NAME" value="github.grit.llm.vector.rag.EmbeddingTest" />
       <option name="METHOD_NAME" value="embed" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -208,8 +211,8 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="github.grit.llm.vector.store" />
-      <option name="MAIN_CLASS_NAME" value="github.grit.llm.vector.store.EmbeddingTest" />
+      <option name="PACKAGE_NAME" value="github.grit.llm.vector.rag" />
+      <option name="MAIN_CLASS_NAME" value="github.grit.llm.vector.rag.EmbeddingTest" />
       <option name="METHOD_NAME" value="embeddingModel" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -220,12 +223,12 @@
       <module name="llm-server" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="github.grit.llm.vector.store.*" />
+          <option name="PATTERN" value="github.grit.llm.vector.rag.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="github.grit.llm.vector.store" />
-      <option name="MAIN_CLASS_NAME" value="github.grit.llm.vector.store.EmbeddingTest" />
+      <option name="PACKAGE_NAME" value="github.grit.llm.vector.rag" />
+      <option name="MAIN_CLASS_NAME" value="github.grit.llm.vector.rag.EmbeddingTest" />
       <option name="METHOD_NAME" value="embeddingStoreIngestor" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -296,6 +299,22 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/dev/langchain4j/langchain4j-web-search-engine-google-custom/1.0.0-beta2/langchain4j-web-search-engine-google-custom-1.0.0-beta2.jar!/dev/langchain4j/web/search/google/customsearch/GoogleCustomWebSearchEngine.class</url>
+          <line>57</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/dev/langchain4j/langchain4j-web-search-engine-google-custom/1.0.0-beta2/langchain4j-web-search-engine-google-custom-1.0.0-beta2.jar!/dev/langchain4j/web/search/google/customsearch/GoogleCustomSearchApiClient.class</url>
+          <line>72</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

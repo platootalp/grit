@@ -1,4 +1,4 @@
-package github.grit.llm.vector.document;
+package github.grit.llm.rag;
 
 import java.util.List;
 
