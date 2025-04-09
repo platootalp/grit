@@ -17,12 +17,12 @@
 	<description>LLM Server Module</description>
 
 	<dependencies>
-		<dependency>
-			<groupId>github.grit</groupId>
-			<artifactId>llm-common</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-		<!-- LLM 相关 -->
+<!--		<dependency>-->
+<!--			<groupId>github.grit</groupId>-->
+<!--			<artifactId>llm-common</artifactId>-->
+<!--			<version>0.0.1-SNAPSHOT</version>-->
+<!--		</dependency>-->
+		<!-- langchain4j 相关 -->
 		<dependency>
 			<groupId>dev.langchain4j</groupId>
 			<artifactId>langchain4j-spring-boot-starter</artifactId>
@@ -52,6 +52,12 @@
 			<artifactId>langchain4j-jina</artifactId>
 		</dependency>
 
+		<!-- Spring AI 相关 -->
+		<dependency>
+			<groupId>org.springframework.ai</groupId>
+			<artifactId>spring-ai-model</artifactId>
+		</dependency>
+
 		<!-- Spring Boot Web 支持 -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -62,17 +68,17 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-webflux</artifactId>
 		</dependency>
-		<!-- Lombok (可选，编译时自动生成 getter/setter 等) -->
-		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-			<scope>provided</scope>
-		</dependency>
 		<!-- 测试支持 -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<!-- Lombok (可选，编译时自动生成 getter/setter 等) -->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<scope>provided</scope>
 		</dependency>
 	</dependencies>
 

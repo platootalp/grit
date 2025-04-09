@@ -7,9 +7,7 @@
     <list default="true" id="d0d64b62-1122-4656-acff-16acbb39d3c7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/llm/llm-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/llm-server/src/main/java/github/grit/llm/enums/ModelEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/main/java/github/grit/llm/enums/ModelEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/rag/AdvancedRagTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/rag/AdvancedRagTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/util/LangChain4jUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/util/LangChain4jUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/llm/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,61 +64,61 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.LlmApplication (1).executor": "Run",
-    "Application.LlmApplication.executor": "Run",
-    "Application.UnionFind.executor": "Run",
-    "JUnit.AdvancedRagTest.query.executor": "Run",
-    "JUnit.AdvancedRagTest.retrievalAugmentor.executor": "Debug",
-    "JUnit.DocumentTest.documentSplitter.executor": "Run",
-    "JUnit.DocumentTest.documentTransformer.executor": "Run",
-    "JUnit.DocumentTest.loadDocument.executor": "Run",
-    "JUnit.EmbeddingTest.embed.executor": "Run",
-    "JUnit.EmbeddingTest.embeddingModel.executor": "Run",
-    "JUnit.EmbeddingTest.embeddingStoreIngestor.executor": "Run",
-    "JUnit.LlmApplicationTests.testChat.executor": "Run",
-    "JUnit.LlmApplicationTests.tokenCount.executor": "Debug",
-    "JUnit.MilvusTest.deleteCollection.executor": "Run",
-    "JUnit.MilvusTest.dimension.executor": "Run",
-    "JUnit.MilvusTest.executor": "Run",
-    "JUnit.MilvusTest.test.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "Maven.llm [org.apache.maven.plugins:maven-clean-plugin:3.3.2:clean].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.LlmApplication.executor": "Run",
-    "ToolWindowBuild.ShowToolbar": "false",
-    "com.codeium.enabled": "true",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "17",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/lijunyi/road/grit/note/direction",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.16920471",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "ts.external.directory.path": "E:\\software\\IntelliJ IDEA 2024.3.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.LlmApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.LlmApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UnionFind.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AdvancedRagTest.query.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AdvancedRagTest.retrievalAugmentor.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.DocumentTest.documentSplitter.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DocumentTest.documentTransformer.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DocumentTest.loadDocument.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EmbeddingTest.embed.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EmbeddingTest.embeddingModel.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EmbeddingTest.embeddingStoreIngestor.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LlmApplicationTests.testChat.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LlmApplicationTests.tokenCount.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.MilvusTest.deleteCollection.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MilvusTest.dimension.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MilvusTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MilvusTest.test.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.llm [org.apache.maven.plugins:maven-clean-plugin:3.3.2:clean].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.LlmApplication.executor&quot;: &quot;Run&quot;,
+    &quot;ToolWindowBuild.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/lijunyi/road/grit/note/direction&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.16920471&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;E:\\software\\IntelliJ IDEA 2024.3.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "JAVA",
-      "PLAIN_TEXT"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;,
+      &quot;PLAIN_TEXT&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
