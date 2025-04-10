@@ -5,24 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0d64b62-1122-4656-acff-16acbb39d3c7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/tool/ToolTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/volumes/milvus/data/pprof/standalone_pprof_20250402_143835_block.prof" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/volumes/milvus/data/pprof/standalone_pprof_20250402_143835_cpu.prof" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/volumes/milvus/data/pprof/standalone_pprof_20250402_143835_goroutine.prof" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/volumes/milvus/data/pprof/standalone_pprof_20250402_143835_heap.prof" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/volumes/milvus/data/pprof/standalone_pprof_20250402_143835_mutex.prof" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/spring/tool/StructuredOutputTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/volumes/etcd/member/snap/db" beforeDir="false" afterPath="$PROJECT_DIR$/volumes/etcd/member/snap/db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/volumes/etcd/member/wal/0.tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/volumes/etcd/member/wal/0000000000000000-0000000000000000.wal" beforeDir="false" afterPath="$PROJECT_DIR$/volumes/etcd/member/wal/0000000000000000-0000000000000000.wal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/volumes/milvus/rdb_data/000005.log" beforeDir="false" afterPath="$PROJECT_DIR$/volumes/milvus/rdb_data/000005.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/volumes/milvus/rdb_data/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/volumes/milvus/rdb_data/LOG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/volumes/milvus/rdb_data_meta_kv/000005.log" beforeDir="false" afterPath="$PROJECT_DIR$/volumes/milvus/rdb_data_meta_kv/000005.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/volumes/milvus/rdb_data_meta_kv/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/volumes/milvus/rdb_data_meta_kv/LOG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/volumes/minio/.minio.sys/buckets/.bloomcycle.bin/xl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/volumes/minio/.minio.sys/buckets/.bloomcycle.bin/xl.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/volumes/minio/.minio.sys/buckets/.usage-cache.bin/xl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/volumes/minio/.minio.sys/buckets/.usage-cache.bin/xl.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/volumes/minio/.minio.sys/buckets/.usage.json/xl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/volumes/minio/.minio.sys/buckets/.usage.json/xl.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/volumes/minio/.minio.sys/buckets/a-bucket/.usage-cache.bin/xl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/volumes/minio/.minio.sys/buckets/a-bucket/.usage-cache.bin/xl.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-server/src/main/java/github/grit/llm/controller/DocumentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/main/java/github/grit/llm/controller/DocumentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-server/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/tool/ToolTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/spring/tool/ToolTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,61 +77,63 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.LlmApplication (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.LlmApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UnionFind.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AdvancedRagTest.query.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AdvancedRagTest.retrievalAugmentor.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.DocumentTest.documentSplitter.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.DocumentTest.documentTransformer.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.DocumentTest.loadDocument.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EmbeddingTest.embed.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EmbeddingTest.embeddingModel.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EmbeddingTest.embeddingStoreIngestor.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LlmApplicationTests.testChat.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LlmApplicationTests.tokenCount.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.MilvusTest.deleteCollection.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MilvusTest.dimension.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MilvusTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MilvusTest.test.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.llm [org.apache.maven.plugins:maven-clean-plugin:3.3.2:clean].executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.LlmApplication.executor&quot;: &quot;Run&quot;,
-    &quot;ToolWindowBuild.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/lijunyi/road/grit/note/direction&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.16920471&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;E:\\software\\IntelliJ IDEA 2024.3.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.LlmApplication (1).executor": "Run",
+    "Application.LlmApplication.executor": "Run",
+    "Application.UnionFind.executor": "Run",
+    "JUnit.AdvancedRagTest.query.executor": "Run",
+    "JUnit.AdvancedRagTest.retrievalAugmentedGeneration.executor": "Run",
+    "JUnit.AdvancedRagTest.retrievalAugmentor.executor": "Debug",
+    "JUnit.DocumentTest.documentSplitter.executor": "Run",
+    "JUnit.DocumentTest.documentTransformer.executor": "Run",
+    "JUnit.DocumentTest.loadDocument.executor": "Run",
+    "JUnit.EmbeddingTest.embed.executor": "Run",
+    "JUnit.EmbeddingTest.embeddingModel.executor": "Run",
+    "JUnit.EmbeddingTest.embeddingStoreIngestor.executor": "Run",
+    "JUnit.LlmApplicationTests.testChat.executor": "Run",
+    "JUnit.LlmApplicationTests.tokenCount.executor": "Debug",
+    "JUnit.MilvusTest.deleteCollection.executor": "Run",
+    "JUnit.MilvusTest.dimension.executor": "Run",
+    "JUnit.MilvusTest.executor": "Run",
+    "JUnit.MilvusTest.test.executor": "Run",
+    "JUnit.StructuredOutputTest.testStructuredOutput.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.llm [org.apache.maven.plugins:maven-clean-plugin:3.3.2:clean].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.LlmApplication.executor": "Run",
+    "ToolWindowBuild.ShowToolbar": "false",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/lijunyi/road/grit/note/direction",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.16920471",
+    "settings.editor.selected.configurable": "cn.yiiguxing.plugin.translate",
+    "ts.external.directory.path": "E:\\software\\IntelliJ IDEA 2024.3.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;JAVA&quot;,
-      &quot;PLAIN_TEXT&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA",
+      "PLAIN_TEXT"
     ]
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -170,7 +160,7 @@
       <recent name="github.grit.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AdvancedRagTest.retrievalAugmentor">
+  <component name="RunManager" selected="JUnit.StructuredOutputTest.testStructuredOutput">
     <configuration name="Server" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="github.grit.App" />
       <module name="message" />
@@ -178,23 +168,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AdvancedRagTest.query" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="llm-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="github.grit.llm.vector.rag.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="github.grit.llm.vector.rag" />
-      <option name="MAIN_CLASS_NAME" value="github.grit.llm.vector.rag.AdvancedRagTest" />
-      <option name="METHOD_NAME" value="query" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AdvancedRagTest.retrievalAugmentor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AdvancedRagTest.retrievalAugmentedGeneration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="llm-server" />
       <extension name="coverage">
         <pattern>
@@ -204,7 +178,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="github.grit.llm.rag" />
       <option name="MAIN_CLASS_NAME" value="github.grit.llm.rag.AdvancedRagTest" />
-      <option name="METHOD_NAME" value="retrievalAugmentor" />
+      <option name="METHOD_NAME" value="retrievalAugmentedGeneration" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -258,6 +232,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StructuredOutputTest.testStructuredOutput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="llm-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="github.grit.llm.spring.tool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="github.grit.llm.spring.tool" />
+      <option name="MAIN_CLASS_NAME" value="github.grit.llm.spring.tool.StructuredOutputTest" />
+      <option name="METHOD_NAME" value="testStructuredOutput" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LlmApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="llm-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="github.grit.llm.LlmApplication" />
@@ -267,8 +257,8 @@
     </configuration>
     <list>
       <item itemvalue="Application.Server" />
-      <item itemvalue="JUnit.AdvancedRagTest.query" />
-      <item itemvalue="JUnit.AdvancedRagTest.retrievalAugmentor" />
+      <item itemvalue="JUnit.AdvancedRagTest.retrievalAugmentedGeneration" />
+      <item itemvalue="JUnit.StructuredOutputTest.testStructuredOutput" />
       <item itemvalue="JUnit.EmbeddingTest.embed" />
       <item itemvalue="JUnit.EmbeddingTest.embeddingModel" />
       <item itemvalue="JUnit.EmbeddingTest.embeddingStoreIngestor" />
@@ -276,11 +266,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StructuredOutputTest.testStructuredOutput" />
+        <item itemvalue="JUnit.AdvancedRagTest.retrievalAugmentedGeneration" />
         <item itemvalue="JUnit.EmbeddingTest.embeddingStoreIngestor" />
         <item itemvalue="JUnit.EmbeddingTest.embeddingModel" />
         <item itemvalue="JUnit.EmbeddingTest.embed" />
-        <item itemvalue="JUnit.AdvancedRagTest.retrievalAugmentor" />
-        <item itemvalue="JUnit.AdvancedRagTest.query" />
       </list>
     </recent_temporary>
   </component>
@@ -311,7 +301,8 @@
       <workItem from="1742645498191" duration="1932000" />
       <workItem from="1742739774256" duration="540000" />
       <workItem from="1743597560839" duration="5252000" />
-      <workItem from="1744203954567" duration="1205000" />
+      <workItem from="1744203954567" duration="1868000" />
+      <workItem from="1744292404218" duration="5412000" />
     </task>
     <servers />
   </component>

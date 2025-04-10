@@ -1,6 +1,13 @@
 spring:
   application:
     name: llm
+  ai:
+    openai:
+      api-key: "sk-f755ab0f995c43ffa206424bb2c43de2"
+      base-url: "https://dashscope.aliyuncs.com/compatible-mode/v1"
+      chat:
+        options:
+          model: "deepseek-v3"
 
 langchain4j:
   models:
@@ -30,5 +37,6 @@ langchain4j:
       apiKey: "sk-f755ab0f995c43ffa206424bb2c43de2"
       modelName: "text-embedding-v2"
       baseUrl: "https://dashscope.aliyuncs.com/compatible-mode/v1"
+
 
 

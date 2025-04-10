@@ -1,4 +1,4 @@
-package github.grit.llm.tool;
+package github.grit.llm.spring.tool;
 
 import org.springframework.boot.test.context.SpringBootTest;
 
