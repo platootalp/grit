@@ -1,11 +1,14 @@
 package github.grit.llm.tool;
 
+import org.junit.jupiter.api.Test;
+
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 public class ToolTest {
 
-    public void test() {
+    @Test
+    public void tool() {
 
     }
 }
