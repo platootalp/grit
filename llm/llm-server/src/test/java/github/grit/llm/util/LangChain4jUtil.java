@@ -2,7 +2,10 @@ package github.grit.llm.util;
 
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
+import dev.langchain4j.agent.tool.P;
+import dev.langchain4j.agent.tool.Tool;
 import dev.langchain4j.data.document.Document;
 import dev.langchain4j.data.document.DocumentLoader;
 import dev.langchain4j.data.document.DocumentSplitter;
@@ -32,6 +35,8 @@ import github.grit.llm.enums.ModelEnum;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+
+import static dev.langchain4j.model.chat.Capability.RESPONSE_FORMAT_JSON_SCHEMA;
 
 @Component
 public class LangChain4jUtil {
@@ -69,6 +74,10 @@ public class LangChain4jUtil {
 						OpenAiChatModel.builder()
 								.baseUrl("https://dashscope.aliyuncs.com/compatible-mode/v1")
 								.apiKey("sk-f755ab0f995c43ffa206424bb2c43de2")
+								.supportedCapabilities(Set.of(RESPONSE_FORMAT_JSON_SCHEMA))
+								.strictJsonSchema(true)
+								.logRequests(true)
+								.logResponses(true)
 								.modelName("qwen-turbo")));
 	}
 

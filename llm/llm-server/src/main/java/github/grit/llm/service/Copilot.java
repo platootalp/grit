@@ -10,4 +10,6 @@ public interface Copilot {
     String chat(String userMessage);
 
     Flux<String> streamChat(String message);
+
+    Long getCalculation(String userMessage);
 }
