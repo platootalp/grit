@@ -1,4 +1,4 @@
-package github.grit.llm.rag;
+package github.grit.llm.rag.index;
 
 import java.util.List;
 import java.util.Map;

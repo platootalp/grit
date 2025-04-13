@@ -8,7 +8,14 @@
       <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/github/grit/algo/MathUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" afterDir="false" />
+    <list default="true" id="a5b10b15-9c62-46ac-b28f-a324455c9ba2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/mcp/tool/ToolTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/TroubleTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/rag/index/TroubleTransformer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/rag/DocumentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/rag/index/DocumentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/rag/EmbeddingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/rag/index/EmbeddingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/rag/MilvusTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/rag/index/MilvusTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +42,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
-        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -51,16 +56,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="customMavenHome" value="E:\Java\maven\apache-maven-3.9.9" />
-        <option name="localRepository" value="E:\Java\maven\repository" />
-        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
-        <option name="userSettingsFile" value="E:\Java\maven\apache-maven-3.9.9\conf\settings.xml" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -70,10 +65,6 @@
   <component name="ProjectId" id="2pQROLEtP0DvQdUrRx8IM2FQX8O" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
@@ -170,7 +161,7 @@
       <module name="llm-server" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="github.grit.llm.rag.*" />
+          <option name="PATTERN" value="github.grit.llm.rag.index.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,7 +193,7 @@
       <module name="llm-server" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="github.grit.llm.*" />
+          <option name="PATTERN" value="github.grit.llm.rag.index.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -260,7 +251,6 @@
       <item itemvalue="JUnit.EmbeddingTest.embed" />
       <item itemvalue="JUnit.EmbeddingTest.embeddingModel" />
       <item itemvalue="JUnit.EmbeddingTest.embeddingStoreIngestor" />
-      <item itemvalue="Spring Boot.LlmApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -271,14 +261,6 @@
         <item itemvalue="JUnit.EmbeddingTest.embed" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.117" />
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.117" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -308,17 +290,6 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="LAST_COMMIT_MESSAGE" value="" />
@@ -335,11 +306,6 @@
           <url>jar://$MAVEN_REPOSITORY$/dev/langchain4j/langchain4j-web-search-engine-google-custom/1.0.0-beta2/langchain4j-web-search-engine-google-custom-1.0.0-beta2.jar!/dev/langchain4j/web/search/google/customsearch/GoogleCustomSearchApiClient.class</url>
           <line>72</line>
           <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/rag/AdvancedRagTest.java</url>
-          <line>174</line>
-          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

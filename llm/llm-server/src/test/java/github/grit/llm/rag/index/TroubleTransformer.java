@@ -1,4 +1,4 @@
-package github.grit.llm;
+package github.grit.llm.rag.index;
 
 import dev.langchain4j.data.document.Document;
 import dev.langchain4j.data.document.DocumentTransformer;

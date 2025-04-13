@@ -1,4 +1,4 @@
-package github.grit.llm.rag;
+package github.grit.llm.rag.index;
 
 import java.util.List;
 
@@ -14,7 +14,6 @@ import dev.langchain4j.data.document.splitter.DocumentBySentenceSplitter;
 import dev.langchain4j.data.segment.TextSegment;
 import dev.langchain4j.model.openai.OpenAiChatModelName;
 import dev.langchain4j.model.openai.OpenAiTokenizer;
-import github.grit.llm.TroubleTransformer;
 import org.junit.jupiter.api.Test;
 
 import org.springframework.boot.test.context.SpringBootTest;
