@@ -1,6 +1,6 @@
 package github.grit.algo;
 
-public class MathUtil {
+public class MathTemplate {
 
     /**
      * 快速幂
