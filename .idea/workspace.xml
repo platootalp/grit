@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0d64b62-1122-4656-acff-16acbb39d3c7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/spring/tool/StructuredOutputTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/github/grit/algo/MathUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/llm-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/llm-server/src/main/java/github/grit/llm/controller/DocumentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/main/java/github/grit/llm/controller/DocumentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/llm-server/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/tool/ToolTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/spring/tool/ToolTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +121,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.16920471",
-    "settings.editor.selected.configurable": "cn.yiiguxing.plugin.translate",
+    "settings.editor.selected.configurable": "leetcode.id",
     "ts.external.directory.path": "E:\\software\\IntelliJ IDEA 2024.3.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   },
@@ -303,6 +301,7 @@
       <workItem from="1743597560839" duration="5252000" />
       <workItem from="1744203954567" duration="1868000" />
       <workItem from="1744292404218" duration="5412000" />
+      <workItem from="1744540565730" duration="3000000" />
     </task>
     <servers />
   </component>

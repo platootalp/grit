@@ -69,6 +69,39 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1922]统计好数字的数目.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[1922]统计好数字的数目.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1922" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1922]统计好数字的数目.java" />
+              <option name="titleSlug" value="count-good-numbers" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[3517]最小回文排列 I.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[3517]最小回文排列 I.md" />
+              <option name="frontendQuestionId" value="leetcode.cn3517" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[3517]最小回文排列 I.java" />
+              <option name="titleSlug" value="smallest-palindromic-rearrangement-i" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[3518]最小回文排列 II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/doc/content/[3518]最小回文排列 II.md" />
+              <option name="frontendQuestionId" value="leetcode.cn3518" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[3518]最小回文排列 II.java" />
+              <option name="titleSlug" value="smallest-palindromic-rearrangement-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
