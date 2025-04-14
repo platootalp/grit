@@ -1,6 +1,6 @@
-# LLM-UI 聊天界面
+# LLM-UI 聊天界面 (React版)
 
-这是一个使用 Vue 3 + TypeScript 实现的类似 ChatGPT 的前端聊天界面，可以连接到任何兼容的 LLM API。
+这是一个使用 React + TypeScript 实现的类似 ChatGPT 的前端聊天界面，可以连接到任何兼容的 LLM API。
 
 ## 🌟 核心功能
 
@@ -23,22 +23,23 @@
 ## 🛠️ 技术栈
 
 ### 核心框架
-- **Vue 3** - 使用 Composition API，响应式高效
+- **React** - 使用函数式组件和Hooks
 - **TypeScript** - 强类型，增强代码健壮性
-- **Vite** - 更快的开发体验，替代 Webpack
+- **Vite** - 更快的开发体验
 
 ### UI 组件库
 - **Tailwind CSS** - 高效的 CSS 工具类框架
 
 ### 状态管理
-- **Pinia** - 轻量级状态管理，替代 Vuex
-- **Pinia Persisted State** - 状态持久化
+- **Zustand** - 轻量级状态管理
+- **Zustand Persist** - 状态持久化
 
 ### 通信与 API
 - **Axios** - 处理 HTTP 请求，前后端通信
 - **WebSocket** - 支持流式响应，类似 ChatGPT 流式对话
-- **Marked** - Markdown解析
-- **Highlight.js** - 代码高亮
+- **React-Markdown** - Markdown解析
+- **React-Syntax-Highlighter** - 代码高亮
+- **React Query** - 数据获取和缓存
 
 ## 📁 项目结构
 
@@ -49,13 +50,13 @@ llm-ui/
 │   ├── components/    # 组件
 │   │   ├── chat/      # 聊天相关组件
 │   │   └── common/    # 通用UI组件
-│   ├── composables/   # 可复用的组合式函数
+│   ├── hooks/         # 自定义钩子
 │   ├── services/      # API服务
-│   ├── stores/        # Pinia 状态管理
+│   ├── store/         # Zustand 状态管理
 │   ├── types/         # TypeScript 类型定义
-│   ├── views/         # 页面视图
-│   ├── App.vue        # 主应用组件
-│   └── main.ts        # 应用入口
+│   ├── pages/         # 页面视图
+│   ├── App.tsx        # 主应用组件
+│   └── main.tsx       # 应用入口
 └── ...
 ```
 
@@ -109,24 +110,35 @@ npm run build
 
 详细的 API 文档请参考 [API文档](API.md)
 
-## ✨ 界面定制
+## 🔧 Vue转React重构说明
 
-本项目通过修改以下文件可以调整界面风格：
+本项目是从Vue 3版本重构而来，主要完成了以下转换工作：
 
-1. **App.vue** - 全局样式和布局
-2. **ChatSessionList.vue** - 侧边栏会话列表样式
-3. **ChatMessage.vue** - 消息气泡样式
-4. **ChatInput.vue** - 输入框样式
+1. **框架转换**:
+   - 从Vue 3的组合式API转换为React的函数式组件和Hooks
+   - 从Vue模板系统转换为JSX
+   
+2. **状态管理**:
+   - 从Pinia转换为Zustand
+   - 保留了持久化存储功能
+   
+3. **路由系统**:
+   - 从Vue Router转换为React Router
+   - 保持了相同的路由结构
+   
+4. **样式系统**:
+   - 保留了Tailwind CSS
+   - CSS模块化逻辑从Vue SFC转为独立CSS或内联样式
+   
+5. **工具链**:
+   - 保留Vite作为构建工具
+   - 调整TypeScript配置以适应React
 
-所有样式使用Tailwind CSS实现，方便快速调整和修改。
+### 注意事项
 
-## 🔜 未来计划
-
-- 添加语音输入功能
-- 增加文件上传和图片分析能力
-- 支持更多的 AI 提供商和模型
-- 添加多语言支持
-- 增强移动端体验
+- 部分TypeScript类型定义需要进一步完善
+- 需要安装`@tailwindcss/typography`插件: `npm install -D @tailwindcss/typography`
+- 如果遇到JSX相关的TypeScript错误，请确保`tsconfig.json`中的`jsx`设置为`react-jsx`
 
 ## 📄 许可证
 
