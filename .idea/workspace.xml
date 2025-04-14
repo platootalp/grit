@@ -5,13 +5,124 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0d64b62-1122-4656-acff-16acbb39d3c7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/util/ToolUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/llm-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/llm-server/src/main/java/github/grit/llm/service/Copilot.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/main/java/github/grit/llm/service/Copilot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/mcp/tool/ToolTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/mcp/tool/ToolTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/util/LangChain4jUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/src/test/java/github/grit/llm/util/LangChain4jUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/AI/AI学习路径.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/学习路线/AI学习路径.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/AI/llm应用学习.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/学习路线/llm应用学习.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/AI/python.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/学习路线/python.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/design/template.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/direction/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/note/学习路线/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/direction/学习方向.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/学习路线/学习方向.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/direction/进阶之路.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/学习路线/进阶之路.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/llm应用/C端应用想法.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/AI/大模型/C端应用想法.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/llm应用/SaaS工具开发.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/AI/大模型/SaaS工具开发.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/llm应用/dify应用.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/AI/大模型/dify应用.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/llm应用/内容生成平台1.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/AI/大模型/内容生成平台1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/llm应用/内容生成平台2.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/AI/大模型/内容生成平台2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/llm应用/对话平台/对话平台.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/AI/大模型/对话平台/对话平台.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/llm应用/对话平台/对话平台1.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/AI/大模型/对话平台/对话平台1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/llm应用/对话平台/架构.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/AI/大模型/对话平台/架构.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/project/framework.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/项目实践/framework.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/project/starter/cache-starter.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/项目实践/cache-starter.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/project/starter/message-starter.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/项目实践/message-starter.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/project/starter/starter开发.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/项目实践/starter开发.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/project/规则引擎.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/项目实践/规则引擎.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/prompt/template.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/AI/大模型/prompt/template.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/中间件/HBase.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/存储/NoSQL/HBase.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/中间件/TiDB.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/存储/NoSQL/TiDB.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/存储/SQL优化.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/存储/SQL/SQL优化.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/Employee.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/Employee.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/customer_address.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/customer_address.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/customer_product.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/customer_product.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/demo.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/demo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20191229173422328.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20191229173422328.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20191229173455149.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20191229173455149.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20191229173518926.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20191229173518926.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20191229173539838.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20191229173539838.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20191229173554296.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20191229173554296.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20200207194617620.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20200207194617620.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20200207234545691.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20200207234545691.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20200208180417291.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20200208180417291.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20200208182322313.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20200208182322313.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20200208212930857.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20200208212930857.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20200210143039168.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20200210143039168.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20200210144457478.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20200210144457478.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20200211130313251.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20200211130313251.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20200214110924010.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20200214110924010.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20200214215446638.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20200214215446638.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20200215220322641.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20200215220322641.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20200215225227616.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20200215225227616.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20200401214509176.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20200401214509176.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20200401222951963.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20200401222951963.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20200413225341516.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20200413225341516.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20200426233931693.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20200426233931693.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20200429111324770.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20200429111324770.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20200429165544151.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20200429165544151.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20200429185050396.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20200429185050396.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20200429204239868.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20200429204239868.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20200429204700956.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20200429204700956.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20200429211132185.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20200429211132185.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20200430220155371.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20200430220155371.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/jdk源码解析.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/jdk源码解析.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/node.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/node.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/open-close.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/open-close.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/中介者模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/中介者模式.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/享元模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/享元模式.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/依赖倒转原则.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/依赖倒转原则.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/依赖倒转原则改进.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/依赖倒转原则改进.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/俄罗斯方块.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/俄罗斯方块.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/原型模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/原型模式.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/原型模式1.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/原型模式1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/原型模式2.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/原型模式2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/原型模式3.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/原型模式3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/合成复用原则.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/合成复用原则.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/合成复用原则1.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/合成复用原则1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/命令模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/命令模式.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/外观模式-jdk源码解析.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/外观模式-jdk源码解析.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/外观模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/外观模式.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/外观模式引入.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/外观模式引入.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/对象适配器模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/对象适配器模式.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/工厂方法模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/工厂方法模式.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/工厂设计模式引入.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/工厂设计模式引入.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/建造者模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/建造者模式.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/建造者模式1.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/建造者模式1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/抽象工厂模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/抽象工厂模式.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/接口隔离原则.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/接口隔离原则.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/接口隔离原则1.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/接口隔离原则1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/桥接模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/桥接模式.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/模板方法模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/模板方法模式.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/正方形不是长方形.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/正方形不是长方形.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/正方形不是长方形改进.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/正方形不是长方形改进.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/状态模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/状态模式.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/状态模式前.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/状态模式前.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/白箱备忘录模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/白箱备忘录模式.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/策略模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/策略模式.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/简单工厂模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/简单工厂模式.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/组合模式-安全性.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/组合模式-安全性.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/组合模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/组合模式.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/装饰者模式-jdk源码.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/装饰者模式-jdk源码.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/装饰者模式-使用前.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/装饰者模式-使用前.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/装饰者模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/装饰者模式.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/观察者模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/观察者模式.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/解释器模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/解释器模式.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/访问者模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/访问者模式.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/责任链模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/责任链模式.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/转接头.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/转接头.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/迪米特法则.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/迪米特法则.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/迭代器模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/迭代器模式.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/适配器模式-jdk源码解析.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/适配器模式-jdk源码解析.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/适配器模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/适配器模式.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/静态代理.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/静态代理.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/img/黑箱备忘录模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/黑箱备忘录模式.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/画图/中介者模式理解.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/画图/中介者模式理解.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/画图/依赖倒转原则理解.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/画图/依赖倒转原则理解.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/画图/接口该类原则理解.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/画图/接口该类原则理解.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/类图/springIOC.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/类图/springIOC.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/设计模式-day01.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/设计模式-day01.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/设计模式-day02.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/设计模式-day02.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/设计模式-day03.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/设计模式-day03.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/设计模式-day04.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/设计模式-day04.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/设计模式-day05.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/设计模式-day05.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/设计模式/设计模式-day06.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/设计模式-day06.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +183,10 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
@@ -108,7 +223,7 @@
     "Spring Boot.LlmApplication.executor": "Run",
     "ToolWindowBuild.ShowToolbar": "false",
     "com.codeium.enabled": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "mac",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/lijunyi/road/grit/note/direction",
@@ -116,7 +231,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.16920471",
     "settings.editor.selected.configurable": "leetcode.id",
@@ -142,11 +257,11 @@
       <recent name="$PROJECT_DIR$/blog-admin/src/main/java/github/grit" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/llm/llm-server/src/main/resources" />
-      <recent name="$PROJECT_DIR$/llm/llm-server/src" />
-      <recent name="$PROJECT_DIR$/llm/llm-server" />
-      <recent name="E:\project\grit\llm\llm-server" />
-      <recent name="$PROJECT_DIR$/llm" />
+      <recent name="$PROJECT_DIR$/note/项目实践" />
+      <recent name="$PROJECT_DIR$/note/语言" />
+      <recent name="$PROJECT_DIR$/note/AI" />
+      <recent name="$PROJECT_DIR$/note/llm应用" />
+      <recent name="$PROJECT_DIR$/note/direction" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="github.grit.llm" />
@@ -258,7 +373,6 @@
       <item itemvalue="JUnit.StructuredOutputTest.testStructuredOutput" />
       <item itemvalue="JUnit.EmbeddingTest.embeddingModel" />
       <item itemvalue="JUnit.EmbeddingTest.embeddingStoreIngestor" />
-      <item itemvalue="Spring Boot.LlmApplication" />
     </list>
     <recent_temporary>
       <list>
