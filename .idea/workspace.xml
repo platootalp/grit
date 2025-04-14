@@ -5,124 +5,174 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0d64b62-1122-4656-acff-16acbb39d3c7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/react-template/blog-ui/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/blog-ui/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/blog-ui/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/blog-ui/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/blog-ui/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/blog-ui/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/blog-ui/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/blog-ui/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/blog-ui/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/blog-ui/src/assets/404_images/404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/blog-ui/src/assets/404_images/404_cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/blog-ui/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/blog-ui/src/assets/styles/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/blog-ui/src/assets/styles/element-ui.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/blog-ui/src/assets/styles/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/blog-ui/src/assets/styles/mixin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/blog-ui/src/assets/styles/sidebar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/blog-ui/src/assets/styles/transition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/blog-ui/src/assets/styles/variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/blog-ui/src/components/HelloWorld.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/blog-ui/src/icons/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/blog-ui/src/icons/svg/article.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/blog-ui/src/icons/svg/bianjizhandian.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/blog-ui/src/icons/svg/biaoqian.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/blog-ui/src/icons/svg/dashboard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/blog-ui/src/icons/svg/eye-open.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/blog-ui/src/icons/svg/eye.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/blog-ui/src/icons/svg/friend.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/blog-ui/src/icons/svg/github.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/blog-ui/src/icons/svg/logout.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/blog-ui/src/icons/svg/markdown.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/blog-ui/src/icons/svg/password.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/blog-ui/src/icons/svg/pinglun-blue.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/blog-ui/src/icons/svg/pv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/blog-ui/src/icons/svg/user.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/blog-ui/src/icons/svg/yonghu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/blog-ui/src/icons/svgo.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/blog-ui/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/blog-ui/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/blog-ui/src/view/WriteBlog.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/blog-ui/vue.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/llm-ui/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/llm-ui/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/llm-ui/API.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/llm-ui/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/llm-ui/env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/llm-ui/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/llm-ui/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/llm-ui/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/llm-ui/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/llm-ui/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/llm-ui/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/llm-ui/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/llm-ui/src/assets/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/llm-ui/src/assets/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/llm-ui/src/assets/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/llm-ui/src/components/chat/ChatInput.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/llm-ui/src/components/chat/ChatMessage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/llm-ui/src/components/chat/ChatSessionList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/llm-ui/src/components/chat/ChatSettings.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/llm-ui/src/components/chat/temp.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/llm-ui/src/components/common/ConfirmDialog.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/llm-ui/src/components/icons/IconCommunity.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/llm-ui/src/components/icons/IconDocumentation.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/llm-ui/src/components/icons/IconEcosystem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/llm-ui/src/components/icons/IconSupport.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/llm-ui/src/components/icons/IconTooling.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/llm-ui/src/components/ui/ConfirmDialog.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/llm-ui/src/composables/useMarkdown.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/llm-ui/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/llm-ui/src/router/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/llm-ui/src/services/api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/llm-ui/src/services/chat.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/llm-ui/src/services/websocket.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/llm-ui/src/stores/chat.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/llm-ui/src/types/chat.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/llm-ui/src/views/ChatView.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/llm-ui/src/views/WelcomeView.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/llm-ui/src/vite-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/llm-ui/tailwind.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/llm-ui/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/llm-ui/tsconfig.node.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-template/llm-ui/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/AI/AI学习路径.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/学习路线/AI学习路径.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/AI/llm应用学习.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/学习路线/llm应用学习.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/AI/python.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/学习路线/python.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/design/template.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/direction/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/note/学习路线/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/direction/学习方向.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/学习路线/学习方向.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/direction/进阶之路.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/学习路线/进阶之路.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/llm应用/C端应用想法.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/AI/大模型/C端应用想法.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/llm应用/SaaS工具开发.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/AI/大模型/SaaS工具开发.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/llm应用/dify应用.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/AI/大模型/dify应用.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/llm应用/内容生成平台1.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/AI/大模型/内容生成平台1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/llm应用/内容生成平台2.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/AI/大模型/内容生成平台2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/llm应用/对话平台/对话平台.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/AI/大模型/对话平台/对话平台.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/llm应用/对话平台/对话平台1.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/AI/大模型/对话平台/对话平台1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/llm应用/对话平台/架构.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/AI/大模型/对话平台/架构.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/project/framework.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/项目实践/framework.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/project/starter/cache-starter.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/项目实践/cache-starter.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/project/starter/message-starter.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/项目实践/message-starter.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/project/starter/starter开发.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/项目实践/starter开发.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/project/规则引擎.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/项目实践/规则引擎.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/prompt/template.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/AI/大模型/prompt/template.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/中间件/HBase.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/存储/NoSQL/HBase.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/中间件/TiDB.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/存储/NoSQL/TiDB.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/存储/SQL优化.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/存储/SQL/SQL优化.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/Employee.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/Employee.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/customer_address.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/customer_address.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/customer_product.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/customer_product.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/demo.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/demo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20191229173422328.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20191229173422328.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20191229173455149.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20191229173455149.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20191229173518926.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20191229173518926.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20191229173539838.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20191229173539838.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20191229173554296.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20191229173554296.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20200207194617620.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20200207194617620.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20200207234545691.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20200207234545691.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20200208180417291.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20200208180417291.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20200208182322313.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20200208182322313.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20200208212930857.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20200208212930857.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20200210143039168.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20200210143039168.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20200210144457478.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20200210144457478.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20200211130313251.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20200211130313251.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20200214110924010.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20200214110924010.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20200214215446638.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20200214215446638.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20200215220322641.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20200215220322641.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20200215225227616.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20200215225227616.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20200401214509176.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20200401214509176.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20200401222951963.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20200401222951963.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20200413225341516.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20200413225341516.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20200426233931693.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20200426233931693.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20200429111324770.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20200429111324770.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20200429165544151.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20200429165544151.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20200429185050396.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20200429185050396.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20200429204239868.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20200429204239868.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20200429204700956.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20200429204700956.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20200429211132185.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20200429211132185.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/image-20200430220155371.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/image-20200430220155371.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/jdk源码解析.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/jdk源码解析.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/node.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/node.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/open-close.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/open-close.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/中介者模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/中介者模式.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/享元模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/享元模式.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/依赖倒转原则.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/依赖倒转原则.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/依赖倒转原则改进.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/依赖倒转原则改进.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/俄罗斯方块.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/俄罗斯方块.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/原型模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/原型模式.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/原型模式1.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/原型模式1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/原型模式2.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/原型模式2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/原型模式3.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/原型模式3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/合成复用原则.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/合成复用原则.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/合成复用原则1.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/合成复用原则1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/命令模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/命令模式.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/外观模式-jdk源码解析.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/外观模式-jdk源码解析.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/外观模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/外观模式.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/外观模式引入.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/外观模式引入.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/对象适配器模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/对象适配器模式.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/工厂方法模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/工厂方法模式.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/工厂设计模式引入.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/工厂设计模式引入.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/建造者模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/建造者模式.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/建造者模式1.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/建造者模式1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/抽象工厂模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/抽象工厂模式.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/接口隔离原则.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/接口隔离原则.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/接口隔离原则1.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/接口隔离原则1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/桥接模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/桥接模式.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/模板方法模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/模板方法模式.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/正方形不是长方形.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/正方形不是长方形.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/正方形不是长方形改进.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/正方形不是长方形改进.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/状态模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/状态模式.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/状态模式前.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/状态模式前.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/白箱备忘录模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/白箱备忘录模式.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/策略模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/策略模式.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/简单工厂模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/简单工厂模式.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/组合模式-安全性.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/组合模式-安全性.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/组合模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/组合模式.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/装饰者模式-jdk源码.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/装饰者模式-jdk源码.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/装饰者模式-使用前.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/装饰者模式-使用前.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/装饰者模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/装饰者模式.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/观察者模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/观察者模式.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/解释器模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/解释器模式.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/访问者模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/访问者模式.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/责任链模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/责任链模式.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/转接头.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/转接头.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/迪米特法则.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/迪米特法则.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/迭代器模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/迭代器模式.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/适配器模式-jdk源码解析.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/适配器模式-jdk源码解析.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/适配器模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/适配器模式.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/静态代理.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/静态代理.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/img/黑箱备忘录模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/img/黑箱备忘录模式.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/画图/中介者模式理解.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/画图/中介者模式理解.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/画图/依赖倒转原则理解.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/画图/依赖倒转原则理解.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/画图/接口该类原则理解.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/画图/接口该类原则理解.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/类图/springIOC.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/类图/springIOC.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/设计模式-day01.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/设计模式-day01.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/设计模式-day02.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/设计模式-day02.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/设计模式-day03.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/设计模式-day03.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/设计模式-day04.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/设计模式-day04.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/设计模式-day05.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/设计模式-day05.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/设计模式/设计模式-day06.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/设计模式/设计模式-day06.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blog-ui/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blog-ui/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blog-ui/babel.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blog-ui/jsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blog-ui/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blog-ui/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blog-ui/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blog-ui/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blog-ui/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blog-ui/src/assets/404_images/404.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blog-ui/src/assets/404_images/404_cloud.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blog-ui/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blog-ui/src/assets/styles/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blog-ui/src/assets/styles/element-ui.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blog-ui/src/assets/styles/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blog-ui/src/assets/styles/mixin.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blog-ui/src/assets/styles/sidebar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blog-ui/src/assets/styles/transition.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blog-ui/src/assets/styles/variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blog-ui/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blog-ui/src/icons/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blog-ui/src/icons/svg/article.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blog-ui/src/icons/svg/bianjizhandian.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blog-ui/src/icons/svg/biaoqian.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blog-ui/src/icons/svg/dashboard.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blog-ui/src/icons/svg/eye-open.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blog-ui/src/icons/svg/eye.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blog-ui/src/icons/svg/friend.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blog-ui/src/icons/svg/github.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blog-ui/src/icons/svg/logout.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blog-ui/src/icons/svg/markdown.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blog-ui/src/icons/svg/password.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blog-ui/src/icons/svg/pinglun-blue.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blog-ui/src/icons/svg/pv.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blog-ui/src/icons/svg/user.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blog-ui/src/icons/svg/yonghu.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blog-ui/src/icons/svgo.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blog-ui/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blog-ui/src/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blog-ui/src/view/WriteBlog.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blog-ui/vue.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-ui/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-ui/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-ui/API.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-ui/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-ui/env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-ui/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-ui/jsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-ui/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-ui/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-ui/postcss.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-ui/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-ui/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-ui/src/assets/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-ui/src/assets/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-ui/src/assets/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-ui/src/components/chat/ChatInput.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-ui/src/components/chat/ChatMessage.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-ui/src/components/chat/ChatSessionList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-ui/src/components/chat/ChatSettings.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-ui/src/components/chat/temp.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-ui/src/components/common/ConfirmDialog.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-ui/src/components/icons/IconCommunity.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-ui/src/components/icons/IconDocumentation.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-ui/src/components/icons/IconEcosystem.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-ui/src/components/icons/IconSupport.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-ui/src/components/icons/IconTooling.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-ui/src/components/ui/ConfirmDialog.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-ui/src/composables/useMarkdown.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-ui/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-ui/src/router/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-ui/src/services/api.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-ui/src/services/chat.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-ui/src/services/websocket.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-ui/src/stores/chat.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-ui/src/types/chat.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-ui/src/views/ChatView.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-ui/src/views/WelcomeView.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-ui/src/vite-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-ui/tailwind.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-ui/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-ui/tsconfig.node.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-ui/vite.config.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,11 +307,11 @@
       <recent name="$PROJECT_DIR$/blog-admin/src/main/java/github/grit" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/react-template" />
       <recent name="$PROJECT_DIR$/note/项目实践" />
       <recent name="$PROJECT_DIR$/note/语言" />
       <recent name="$PROJECT_DIR$/note/AI" />
       <recent name="$PROJECT_DIR$/note/llm应用" />
-      <recent name="$PROJECT_DIR$/note/direction" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="github.grit.llm" />
