@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0d64b62-1122-4656-acff-16acbb39d3c7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/github/grit/datastructure/SlidingWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/github/grit/datastructure/SlidingWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/github/grit/algo/SlidingWindowTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/github/grit/algo/SlidingWindowTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/01-computer-fundamentals/data-structures-algorithms/leetcode.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/01-computer-fundamentals/data-structures-algorithms/leetcode.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +79,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.LlmApplication (1).executor": "Run",
     "Application.LlmApplication.executor": "Run",
-    "Application.SlidingWindow.executor": "Debug",
+    "Application.SlidingWindow.executor": "Run",
     "Application.SlidingWindowTemplate.executor": "Run",
     "Application.UnionFind.executor": "Run",
     "JUnit.AdvancedRagTest.query.executor": "Run",
