@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0d64b62-1122-4656-acff-16acbb39d3c7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/llm/llm-server/src/main/java/github/grit/llm/agent/SqlAgent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/github/grit/algo/SlidingWindowTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/github/grit/algo/SlidingWindowTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/01-computer-fundamentals/data-structures-algorithms/leetcode.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/01-computer-fundamentals/data-structures-algorithms/leetcode.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/llm-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/llm/llm-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +39,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Script" />
         <option value="Class" />
       </list>
     </option>
@@ -74,66 +78,69 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.LlmApplication (1).executor": "Run",
-    "Application.LlmApplication.executor": "Run",
-    "Application.SlidingWindow.executor": "Run",
-    "Application.SlidingWindowTemplate.executor": "Run",
-    "Application.UnionFind.executor": "Run",
-    "JUnit.AdvancedRagTest.query.executor": "Run",
-    "JUnit.AdvancedRagTest.retrievalAugmentedGeneration.executor": "Run",
-    "JUnit.AdvancedRagTest.retrievalAugmentor.executor": "Debug",
-    "JUnit.DocumentTest.documentSplitter.executor": "Run",
-    "JUnit.DocumentTest.documentTransformer.executor": "Run",
-    "JUnit.DocumentTest.loadDocument.executor": "Run",
-    "JUnit.EmbeddingTest.embed.executor": "Run",
-    "JUnit.EmbeddingTest.embeddingModel.executor": "Run",
-    "JUnit.EmbeddingTest.embeddingStoreIngestor.executor": "Run",
-    "JUnit.LlmApplicationTests.testChat.executor": "Run",
-    "JUnit.LlmApplicationTests.tokenCount.executor": "Debug",
-    "JUnit.MilvusTest.deleteCollection.executor": "Run",
-    "JUnit.MilvusTest.dimension.executor": "Run",
-    "JUnit.MilvusTest.executor": "Run",
-    "JUnit.MilvusTest.test.executor": "Run",
-    "JUnit.StructuredOutputTest.testStructuredOutput.executor": "Run",
-    "JUnit.ToolTest.testTool.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "Maven.llm [org.apache.maven.plugins:maven-clean-plugin:3.3.2:clean].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.LlmApplication.executor": "Run",
-    "ToolWindowBuild.ShowToolbar": "false",
-    "com.codeium.enabled": "true",
-    "git-widget-placeholder": "mac",
-    "jdk.selected.JAVA_MODULE": "17",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/lijunyi/road/grit",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.16920471",
-    "settings.editor.selected.configurable": "leetcode.id",
-    "ts.external.directory.path": "E:\\software\\IntelliJ IDEA 2024.3.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.LlmApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.LlmApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SlidingWindow.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SlidingWindowTemplate.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UnionFind.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AdvancedRagTest.query.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AdvancedRagTest.retrievalAugmentedGeneration.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AdvancedRagTest.retrievalAugmentor.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.DocumentTest.documentSplitter.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DocumentTest.documentTransformer.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DocumentTest.loadDocument.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EmbeddingTest.embed.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EmbeddingTest.embeddingModel.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EmbeddingTest.embeddingStoreIngestor.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LlmApplicationTests.testChat.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LlmApplicationTests.tokenCount.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.MilvusTest.deleteCollection.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MilvusTest.dimension.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MilvusTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MilvusTest.test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StructuredOutputTest.testStructuredOutput.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ToolTest.testTool.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.llm [org.apache.maven.plugins:maven-clean-plugin:3.3.2:clean].executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_api.TestAPI.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_api.TestAPI.test_health_check.executor&quot;: &quot;Run&quot;,
+    &quot;Python.algo.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.LlmApplication.executor&quot;: &quot;Run&quot;,
+    &quot;ToolWindowBuild.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;mac&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/lijunyi/road/grit&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.16920471&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;E:\\software\\IntelliJ IDEA 2024.3.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "JAVA",
-      "PLAIN_TEXT"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;,
+      &quot;PLAIN_TEXT&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -146,11 +153,11 @@
       <recent name="$PROJECT_DIR$/blog-admin/src/main/java/github/grit" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/python/test" />
       <recent name="$PROJECT_DIR$/note/06-distributed-systems" />
       <recent name="$PROJECT_DIR$/react-template" />
       <recent name="$PROJECT_DIR$/note/项目实践" />
       <recent name="$PROJECT_DIR$/note/语言" />
-      <recent name="$PROJECT_DIR$/note/AI" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="github.grit.llm" />
@@ -160,27 +167,7 @@
       <recent name="github.grit.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SlidingWindow">
-    <configuration name="Server" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="github.grit.App" />
-      <module name="message" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SlidingWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="github.grit.datastructure.SlidingWindow" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="github.grit.datastructure.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SlidingWindowTemplate">
     <configuration name="SlidingWindowTemplate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="github.grit.algo.SlidingWindowTemplate" />
       <module name="algorithm" />
@@ -190,22 +177,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AdvancedRagTest.retrievalAugmentedGeneration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="llm-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="github.grit.llm.rag.index.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="github.grit.llm.rag" />
-      <option name="MAIN_CLASS_NAME" value="github.grit.llm.rag.AdvancedRagTest" />
-      <option name="METHOD_NAME" value="retrievalAugmentedGeneration" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -249,23 +220,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="pytest for test_api.TestAPI" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="grit" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_api.TestAPI&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_api.TestAPI.test_health_check" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="grit" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_api.TestAPI.test_health_check&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Application.Server" />
-      <item itemvalue="Application.SlidingWindow" />
       <item itemvalue="Application.SlidingWindowTemplate" />
-      <item itemvalue="JUnit.ToolTest.testTool" />
-      <item itemvalue="JUnit.AdvancedRagTest.retrievalAugmentedGeneration" />
       <item itemvalue="JUnit.StructuredOutputTest.testStructuredOutput" />
+      <item itemvalue="JUnit.ToolTest.testTool" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.SlidingWindow" />
-        <item itemvalue="Application.SlidingWindowTemplate" />
-        <item itemvalue="JUnit.ToolTest.testTool" />
-        <item itemvalue="JUnit.StructuredOutputTest.testStructuredOutput" />
-        <item itemvalue="JUnit.AdvancedRagTest.retrievalAugmentedGeneration" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -298,22 +291,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="LAST_COMMIT_MESSAGE" value="" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/dev/langchain4j/langchain4j-web-search-engine-google-custom/1.0.0-beta2/langchain4j-web-search-engine-google-custom-1.0.0-beta2.jar!/dev/langchain4j/web/search/google/customsearch/GoogleCustomWebSearchEngine.class</url>
-          <line>57</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/dev/langchain4j/langchain4j-web-search-engine-google-custom/1.0.0-beta2/langchain4j-web-search-engine-google-custom-1.0.0-beta2.jar!/dev/langchain4j/web/search/google/customsearch/GoogleCustomSearchApiClient.class</url>
-          <line>72</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
