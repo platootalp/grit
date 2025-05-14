@@ -5,103 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0d64b62-1122-4656-acff-16acbb39d3c7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ddd/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-api/src/main/java/github/grit/api/IUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-api/src/main/java/github/grit/api/model/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-app/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-app/build.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-app/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-app/src/main/java/github/grit/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-app/src/main/java/github/grit/config/GuavaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-app/src/main/java/github/grit/config/RedisClientConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-app/src/main/java/github/grit/config/RedisClientConfigProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-app/src/main/java/github/grit/config/ThreadPoolConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-app/src/main/java/github/grit/config/ThreadPoolConfigProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-app/src/main/java/github/grit/config/XxlJobAutoConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-app/src/main/java/github/grit/config/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-app/src/main/java/github/grit/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-app/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-app/src/main/resources/application-prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-app/src/main/resources/application-test.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-app/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-app/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-app/src/main/resources/mybatis/config/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-app/src/main/resources/mybatis/mapper/user_order_mapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-app/src/main/resources/sharding/sharding-jdbc-dev.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-app/src/test/java/github/grit/test/ApiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-app/src/test/java/github/grit/test/infrastructure/persistent/UserOrderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-app/src/test/java/github/grit/test/infrastructure/redis/RedisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-domain/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-domain/src/main/java/github/grit/domain/xxx/adapter/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-domain/src/main/java/github/grit/domain/xxx/model/aggregate/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-domain/src/main/java/github/grit/domain/xxx/model/entity/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-domain/src/main/java/github/grit/domain/xxx/model/valobj/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-domain/src/main/java/github/grit/domain/xxx/repository/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-domain/src/main/java/github/grit/domain/xxx/service/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-domain/src/main/java/github/grit/domain/yyy/model/aggregate/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-domain/src/main/java/github/grit/domain/yyy/model/entity/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-domain/src/main/java/github/grit/domain/yyy/model/valobj/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-domain/src/main/java/github/grit/domain/yyy/repository/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-domain/src/main/java/github/grit/domain/yyy/service/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-infrastructure/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-infrastructure/src/main/java/github/grit/infrastructure/gateway/adapter/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-infrastructure/src/main/java/github/grit/infrastructure/gateway/api/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-infrastructure/src/main/java/github/grit/infrastructure/gateway/dto/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-infrastructure/src/main/java/github/grit/infrastructure/persistent/dao/IUserOrderDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-infrastructure/src/main/java/github/grit/infrastructure/persistent/dao/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-infrastructure/src/main/java/github/grit/infrastructure/persistent/po/UserOrderPO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-infrastructure/src/main/java/github/grit/infrastructure/persistent/po/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-infrastructure/src/main/java/github/grit/infrastructure/persistent/repository/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-infrastructure/src/main/java/github/grit/infrastructure/redis/IRedisService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-infrastructure/src/main/java/github/grit/infrastructure/redis/RedissonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-trigger/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-trigger/src/main/java/github/grit/trigger/http/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-trigger/src/main/java/github/grit/trigger/job/XXLJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-trigger/src/main/java/github/grit/trigger/listener/MQListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-trigger/src/main/java/github/grit/trigger/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-trigger/src/main/java/github/grit/trigger/rpc/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-types/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-types/src/main/java/github/grit/types/common/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-types/src/main/java/github/grit/types/exception/AppException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/ddd-types/src/main/java/github/grit/types/model/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/docs/dev-ops/app/docker-compose-1.0.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/docs/dev-ops/app/start.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/docs/dev-ops/app/stop.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/docs/dev-ops/environment/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/docs/dev-ops/environment/redis/redis.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/docs/dev-ops/environment/rocketmq/create-group.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/docs/dev-ops/environment/rocketmq/create-topic.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/docs/dev-ops/environment/rocketmq/data/console/config/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/docs/dev-ops/environment/rocketmq/data/console/config/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/docs/dev-ops/environment/rocketmq/data/console/store/dashboard2023-11-04.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/docs/dev-ops/environment/rocketmq/data/console/store/dashboard2023-11-04_topic.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/docs/dev-ops/environment/rocketmq/data/console/store/users.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/docs/dev-ops/environment/rocketmq/data/rocketmq/conf/broker.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/docs/dev-ops/environment/sql/nacos.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/docs/dev-ops/environment/sql/xfg_dev_tech_db_00.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/docs/dev-ops/environment/sql/xfg_dev_tech_db_01.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/docs/dev-ops/environment/sql/xxl_job.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note/04-system-design/domain-driven-design/DDD概念理论.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note/编程语言/Java/基础.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note/编程语言/Java/集合/Deque.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note/编程语言/Java/集合/List.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note/编程语言/Java/集合/Map.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note/编程语言/Java/集合/Set.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xfg-frame-archetype-std" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/design/架构设计草稿.md" beforeDir="false" afterPath="$PROJECT_DIR$/llm/design/架构设计草稿.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/02-programming-languages/Java/基础.md" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/docs/dev-ops/environment/rocketmq/data/logs/consolelogs/rocketmq-console.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/02-programming-languages/Java/集合/Deque.md" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/docs/dev-ops/environment/rocketmq/data/logs/logs.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/02-programming-languages/Java/集合/List.md" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/docs/dev-ops/environment/rocketmq/data/logs/rocketmqlogs/brokerLogDir_IS_UNDEFINED/broker.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/02-programming-languages/Java/集合/Map.md" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/docs/dev-ops/environment/rocketmq/data/logs/rocketmqlogs/rocketmq_client.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/02-programming-languages/Java/集合/Set.md" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/docs/dev-ops/environment/rocketmq/data/rocketmq/store/store.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/02-programming-languages/TypeScript/typescript.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/编程语言/TypeScript/typescript.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/02-programming-languages/TypeScript/typescript.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/note/编程语言/TypeScript/typescript.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std" beforeDir="false" afterPath="$PROJECT_DIR$/xfg-frame-archetype-std" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xfg-frame-archetype-std/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/scaffold-std/src/main/resources/archetype-resources/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/xfg-frame-archetype-std/scaffold-std/src/main/resources/archetype-resources/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/scaffold-std/src/main/resources/archetype-resources/__rootArtifactId__-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xfg-frame-archetype-std/scaffold-std/src/main/resources/archetype-resources/__rootArtifactId__-app/pom.xml" afterDir="false" />
@@ -198,7 +103,21 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="mac" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/xfg-frame-archetype-std" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
