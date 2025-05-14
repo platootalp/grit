@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0d64b62-1122-4656-acff-16acbb39d3c7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/llm/design/DDD分析流程.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/llm/design/用户管理.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/llm/design/租户管理.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note/resume.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llm/design/DDD流程全景图.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llm/design/子域识别.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llm/design/提示词模板.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llm/design/架构设计草稿.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/01-computer-fundamentals/data-structures-algorithms/leetcode.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/leetcode.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/20-learning-paths/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/design/DDD分析流程.md" beforeDir="false" afterPath="$PROJECT_DIR$/llm/design/DDD分析流程.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
