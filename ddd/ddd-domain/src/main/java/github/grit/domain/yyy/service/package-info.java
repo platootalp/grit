@@ -1,0 +1,1 @@
+package github.grit.domain.yyy.service;
