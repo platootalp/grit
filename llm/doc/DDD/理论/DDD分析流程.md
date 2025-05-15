@@ -58,9 +58,6 @@
 * **输入**：生产环境反馈、监控与性能数据、领域专家新需求。([codecentric AG][12])
 * **输出**：版本演进的模型文档、重构后的代码及新的集成契约。([codecentric AG][12])
 
----
-
-通过上述七大步骤，团队能够系统化地从业务需求出发，逐层细化并落地领域模型，确保软件设计和实现始终与业务领域保持一致，从而提高系统的可维护性与演进能力。
 
 [1]: https://medium.com/%40lambrych/can-eventstorming-guide-the-design-workflow-6f75d8aa20e0?utm_source=chatgpt.com "Domain-Driven Design (DDD): EventStorming example for System ..."
 [2]: https://medium.com/%40philippkostyra/designing-the-digital-thread-using-domain-driven-design-d68dd7aaee90?utm_source=chatgpt.com "Designing the Digital Thread using Domain-Driven Design - Medium"

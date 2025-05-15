@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0d64b62-1122-4656-acff-16acbb39d3c7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/llm/doc/DDD/img/领域关系.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llm/doc/DDD/战略设计/子域划分.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llm/doc/DDD/战略设计/通用域与支撑域区别.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llm/doc/DDD/战略设计/限界上下文划分.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llm/doc/DDD/理论/DDD与传统软件工程.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/doc/DDD/战略设计/DDD战略设计.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/doc/DDD/战略设计/子域识别.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/doc/DDD/战略设计/领域划分.md" beforeDir="false" afterPath="$PROJECT_DIR$/llm/doc/DDD/战略设计/功能域划分.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/doc/DDD/理论/DDD分析流程.md" beforeDir="false" afterPath="$PROJECT_DIR$/llm/doc/DDD/理论/DDD分析流程.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std" beforeDir="false" afterPath="$PROJECT_DIR$/xfg-frame-archetype-std" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xfg-frame-archetype-std/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/scaffold-std/src/main/resources/archetype-resources/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/xfg-frame-archetype-std/scaffold-std/src/main/resources/archetype-resources/README.md" afterDir="false" />
@@ -116,7 +125,7 @@
         </map>
       </branch-storage>
     </favorite-branches>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/xfg-frame-archetype-std" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
@@ -181,7 +190,7 @@
     "Spring Boot.LlmApplication.executor": "Run",
     "ToolWindowBuild.ShowToolbar": "false",
     "com.codeium.enabled": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "mac",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/lijunyi/road/grit",
@@ -215,11 +224,11 @@
       <recent name="$PROJECT_DIR$/blog-admin/src/main/java/github/grit" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/note" />
-      <recent name="$PROJECT_DIR$/llm/design" />
-      <recent name="$PROJECT_DIR$/note/思维导图" />
-      <recent name="$PROJECT_DIR$/python/test" />
-      <recent name="$PROJECT_DIR$/note/06-distributed-systems" />
+      <recent name="$PROJECT_DIR$/llm/doc/DDD" />
+      <recent name="$PROJECT_DIR$/llm/doc/img" />
+      <recent name="$PROJECT_DIR$/llm/doc/DDD/理论" />
+      <recent name="$PROJECT_DIR$/llm/doc/概要设计" />
+      <recent name="$PROJECT_DIR$/llm/doc/DDD/战略设计" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="github.grit.llm" />
