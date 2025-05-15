@@ -5,16 +5,124 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0d64b62-1122-4656-acff-16acbb39d3c7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/llm/doc/DDD/img/领域关系.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/llm/doc/DDD/战略设计/子域划分.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/llm/doc/DDD/战略设计/通用域与支撑域区别.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/llm/doc/DDD/战略设计/限界上下文划分.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/llm/doc/DDD/理论/DDD与传统软件工程.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llm/doc/DDD/战略设计/3.限界上下文划分.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/doc/DDD/战略设计/DDD战略设计.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/doc/DDD/战略设计/子域识别.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/doc/DDD/战略设计/领域划分.md" beforeDir="false" afterPath="$PROJECT_DIR$/llm/doc/DDD/战略设计/功能域划分.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/doc/DDD/理论/DDD分析流程.md" beforeDir="false" afterPath="$PROJECT_DIR$/llm/doc/DDD/理论/DDD分析流程.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/doc/DDD/战略设计/功能域划分.md" beforeDir="false" afterPath="$PROJECT_DIR$/llm/doc/DDD/战略设计/1.功能域识别.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/doc/DDD/战略设计/子域划分.md" beforeDir="false" afterPath="$PROJECT_DIR$/llm/doc/DDD/战略设计/2.子域划分.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/doc/DDD/战略设计/通用域与支撑域区别.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/doc/DDD/战略设计/限界上下文划分.md" beforeDir="false" afterPath="$PROJECT_DIR$/llm/doc/DDD/战略设计/4.上下文映射关系.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm/doc/需求分析/业务诉求.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/03-dev-frameworks/React/react.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/框架/React/react.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/Employee.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/Employee.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/customer_address.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/customer_address.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/customer_product.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/customer_product.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/demo.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/demo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/image-20191229173422328.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/image-20191229173422328.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/image-20191229173455149.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/image-20191229173455149.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/image-20191229173518926.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/image-20191229173518926.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/image-20191229173539838.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/image-20191229173539838.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/image-20191229173554296.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/image-20191229173554296.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/image-20200207194617620.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/image-20200207194617620.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/image-20200207234545691.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/image-20200207234545691.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/image-20200208180417291.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/image-20200208180417291.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/image-20200208182322313.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/image-20200208182322313.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/image-20200208212930857.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/image-20200208212930857.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/image-20200210143039168.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/image-20200210143039168.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/image-20200210144457478.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/image-20200210144457478.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/image-20200211130313251.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/image-20200211130313251.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/image-20200214110924010.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/image-20200214110924010.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/image-20200214215446638.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/image-20200214215446638.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/image-20200215220322641.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/image-20200215220322641.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/image-20200215225227616.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/image-20200215225227616.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/image-20200401214509176.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/image-20200401214509176.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/image-20200401222951963.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/image-20200401222951963.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/image-20200413225341516.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/image-20200413225341516.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/image-20200426233931693.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/image-20200426233931693.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/image-20200429111324770.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/image-20200429111324770.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/image-20200429165544151.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/image-20200429165544151.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/image-20200429185050396.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/image-20200429185050396.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/image-20200429204239868.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/image-20200429204239868.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/image-20200429204700956.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/image-20200429204700956.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/image-20200429211132185.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/image-20200429211132185.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/image-20200430220155371.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/image-20200430220155371.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/jdk源码解析.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/jdk源码解析.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/node.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/node.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/open-close.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/open-close.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/中介者模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/中介者模式.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/享元模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/享元模式.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/依赖倒转原则.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/依赖倒转原则.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/依赖倒转原则改进.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/依赖倒转原则改进.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/俄罗斯方块.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/俄罗斯方块.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/原型模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/原型模式.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/原型模式1.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/原型模式1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/原型模式2.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/原型模式2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/原型模式3.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/原型模式3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/合成复用原则.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/合成复用原则.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/合成复用原则1.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/合成复用原则1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/命令模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/命令模式.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/外观模式-jdk源码解析.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/外观模式-jdk源码解析.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/外观模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/外观模式.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/外观模式引入.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/外观模式引入.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/对象适配器模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/对象适配器模式.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/工厂方法模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/工厂方法模式.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/工厂设计模式引入.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/工厂设计模式引入.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/建造者模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/建造者模式.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/建造者模式1.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/建造者模式1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/抽象工厂模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/抽象工厂模式.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/接口隔离原则.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/接口隔离原则.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/接口隔离原则1.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/接口隔离原则1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/桥接模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/桥接模式.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/模板方法模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/模板方法模式.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/正方形不是长方形.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/正方形不是长方形.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/正方形不是长方形改进.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/正方形不是长方形改进.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/状态模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/状态模式.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/状态模式前.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/状态模式前.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/白箱备忘录模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/白箱备忘录模式.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/策略模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/策略模式.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/简单工厂模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/简单工厂模式.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/组合模式-安全性.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/组合模式-安全性.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/组合模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/组合模式.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/装饰者模式-jdk源码.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/装饰者模式-jdk源码.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/装饰者模式-使用前.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/装饰者模式-使用前.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/装饰者模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/装饰者模式.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/观察者模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/观察者模式.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/解释器模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/解释器模式.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/访问者模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/访问者模式.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/责任链模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/责任链模式.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/转接头.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/转接头.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/迪米特法则.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/迪米特法则.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/迭代器模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/迭代器模式.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/适配器模式-jdk源码解析.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/适配器模式-jdk源码解析.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/适配器模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/适配器模式.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/静态代理.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/静态代理.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/img/黑箱备忘录模式.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/img/黑箱备忘录模式.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/画图/中介者模式理解.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/画图/中介者模式理解.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/画图/依赖倒转原则理解.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/画图/依赖倒转原则理解.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/画图/接口该类原则理解.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/画图/接口该类原则理解.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/类图/springIOC.png" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/类图/springIOC.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/设计模式-day01.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/设计模式-day01.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/设计模式-day02.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/设计模式-day02.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/设计模式-day03.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/设计模式-day03.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/设计模式-day04.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/设计模式-day04.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/设计模式-day05.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/设计模式-day05.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-patterns/设计模式-day06.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-patterns/设计模式-day06.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/design-process.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/design-process.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/domain-driven-design/DDD概念理论.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/domain-driven-design/DDD概念理论.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/high-concurrency/high-concurrency.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/high-concurrency/high-concurrency.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/hot-cold-separation.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/hot-cold-separation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/interface-idempotency.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/interface-idempotency.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/read-write-split-and-sharding.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/read-write-split-and-sharding.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/04-system-design/related-diagrams.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/系统设计/related-diagrams.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/19-practical-projects/cache-starter.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/实践项目/cache-starter.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/19-practical-projects/framework.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/实践项目/framework.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/19-practical-projects/message-starter.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/实践项目/message-starter.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/19-practical-projects/rule-engine.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/实践项目/rule-engine.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/19-practical-projects/starter-development.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/实践项目/starter-development.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/20-learning-paths/advancement-path.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/学习路径/advancement-path.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/20-learning-paths/ai-learning-path.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/学习路径/ai-learning-path.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/20-learning-paths/learning-directions.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/学习路径/learning-directions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/20-learning-paths/llm-application-learning.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/学习路径/llm-application-learning.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/20-learning-paths/python.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/学习路径/python.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std" beforeDir="false" afterPath="$PROJECT_DIR$/xfg-frame-archetype-std" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xfg-frame-archetype-std/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/scaffold-std/src/main/resources/archetype-resources/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/xfg-frame-archetype-std/scaffold-std/src/main/resources/archetype-resources/README.md" afterDir="false" />
