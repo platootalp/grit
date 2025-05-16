@@ -44,6 +44,12 @@
 <!--			<artifactId>llm-common</artifactId>-->
 <!--			<version>0.0.1-SNAPSHOT</version>-->
 <!--		</dependency>-->
+		<!-- langgraph4j 相关 -->
+		<dependency>
+			<groupId>org.bsc.langgraph4j</groupId>
+			<artifactId>langgraph4j-core</artifactId>
+			<version>1.5.12</version>
+		</dependency>
 		<!-- langchain4j 相关 -->
 		<dependency>
 			<groupId>dev.langchain4j</groupId>
