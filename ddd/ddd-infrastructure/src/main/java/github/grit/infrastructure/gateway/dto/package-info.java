@@ -1,1 +1,0 @@
-package github.grit.infrastructure.gateway.dto;

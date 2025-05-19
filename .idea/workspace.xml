@@ -5,78 +5,114 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0d64b62-1122-4656-acff-16acbb39d3c7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/llm/doc/img/业务架构图.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/llm/doc/img/大模型应用平台业务架构.excalidraw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/llm/doc/概要设计/功能划分II.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/llm/doc/概要设计/应用层领域层功能对照.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/doc/DDD/战略设计/1.功能域识别.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/doc/DDD/战略设计/2.子域划分.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/doc/DDD/战略设计/3.限界上下文划分.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/doc/DDD/战略设计/4.上下文映射关系.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/doc/DDD/理论/DDD与传统软件工程.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/doc/DDD/理论/DDD分析与思考过程详解.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/doc/DDD/理论/DDD分析流程.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/doc/DDD/理论/DDD流程全景图.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/doc/img/业务架构图.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/doc/img/大模型应用平台业务架构.excalidraw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/doc/img/领域关系.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/doc/提示词模板/提示词模板.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/doc/概要设计/功能划分.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/doc/概要设计/功能划分II.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/doc/概要设计/工作流设计.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/doc/概要设计/应用层领域层功能对照.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/doc/概要设计/架构设计草稿.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/doc/概要设计/用户管理.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/doc/概要设计/租户管理.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd/doc/详细设计/一期技术方案.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/llm/doc/详细设计/一期技术方案.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/doc/DDD/img/领域关系.png" beforeDir="false" afterPath="$PROJECT_DIR$/llm/doc/img/领域关系.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm/doc/概要设计/功能划分.md" beforeDir="false" afterPath="$PROJECT_DIR$/llm/doc/概要设计/功能划分.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std" beforeDir="false" afterPath="$PROJECT_DIR$/xfg-frame-archetype-std" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xfg-frame-archetype-std/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/scaffold-std/src/main/resources/archetype-resources/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/xfg-frame-archetype-std/scaffold-std/src/main/resources/archetype-resources/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/scaffold-std/src/main/resources/archetype-resources/__rootArtifactId__-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xfg-frame-archetype-std/scaffold-std/src/main/resources/archetype-resources/__rootArtifactId__-app/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/scaffold-std/src/main/resources/archetype-resources/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xfg-frame-archetype-std/scaffold-std/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-api/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-api/src/main/java/cn/bugstack/api/IUserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-api/src/main/java/cn/bugstack/api/model/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-app/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-app/build.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-app/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-app/src/main/java/cn/bugstack/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-app/src/main/java/cn/bugstack/config/GuavaConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-app/src/main/java/cn/bugstack/config/RedisClientConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-app/src/main/java/cn/bugstack/config/RedisClientConfigProperties.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-app/src/main/java/cn/bugstack/config/ThreadPoolConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-app/src/main/java/cn/bugstack/config/ThreadPoolConfigProperties.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-app/src/main/java/cn/bugstack/config/XxlJobAutoConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-app/src/main/java/cn/bugstack/config/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-app/src/main/java/cn/bugstack/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-app/src/main/resources/application-dev.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-app/src/main/resources/application-prod.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-app/src/main/resources/application-test.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-app/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-app/src/main/resources/logback-spring.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-app/src/main/resources/mybatis/config/mybatis-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-app/src/main/resources/mybatis/mapper/user_order_mapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-app/src/main/resources/sharding/sharding-jdbc-dev.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-app/src/test/java/cn/bugstack/test/ApiTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-app/src/test/java/cn/bugstack/test/infrastructure/persistent/UserOrderTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-app/src/test/java/cn/bugstack/test/infrastructure/redis/RedisTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-domain/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-domain/src/main/java/cn/bugstack/domain/xxx/adapter/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-domain/src/main/java/cn/bugstack/domain/xxx/model/aggregate/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-domain/src/main/java/cn/bugstack/domain/xxx/model/entity/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-domain/src/main/java/cn/bugstack/domain/xxx/model/valobj/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-domain/src/main/java/cn/bugstack/domain/xxx/repository/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-domain/src/main/java/cn/bugstack/domain/xxx/service/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-domain/src/main/java/cn/bugstack/domain/yyy/model/aggregate/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-domain/src/main/java/cn/bugstack/domain/yyy/model/entity/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-domain/src/main/java/cn/bugstack/domain/yyy/model/valobj/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-domain/src/main/java/cn/bugstack/domain/yyy/repository/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-domain/src/main/java/cn/bugstack/domain/yyy/service/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-infrastructure/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-infrastructure/src/main/java/cn/bugstack/infrastructure/gateway/adapter/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-infrastructure/src/main/java/cn/bugstack/infrastructure/gateway/api/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-infrastructure/src/main/java/cn/bugstack/infrastructure/gateway/dto/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-infrastructure/src/main/java/cn/bugstack/infrastructure/persistent/dao/IUserOrderDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-infrastructure/src/main/java/cn/bugstack/infrastructure/persistent/dao/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-infrastructure/src/main/java/cn/bugstack/infrastructure/persistent/po/UserOrderPO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-infrastructure/src/main/java/cn/bugstack/infrastructure/persistent/po/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-infrastructure/src/main/java/cn/bugstack/infrastructure/persistent/repository/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-infrastructure/src/main/java/cn/bugstack/infrastructure/redis/IRedisService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-infrastructure/src/main/java/cn/bugstack/infrastructure/redis/RedissonService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-trigger/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-trigger/src/main/java/cn/bugstack/trigger/http/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-trigger/src/main/java/cn/bugstack/trigger/job/XXLJob.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-trigger/src/main/java/cn/bugstack/trigger/listener/MQListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-trigger/src/main/java/cn/bugstack/trigger/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-trigger/src/main/java/cn/bugstack/trigger/rpc/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-types/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-types/src/main/java/cn/bugstack/types/common/Constants.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-types/src/main/java/cn/bugstack/types/exception/AppException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-archetype-std-types/src/main/java/cn/bugstack/types/model/Response.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-ddd/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xfg-frame-archetype-std/xfg-frame-ddd/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-api/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-api/src/main/java/github/grit/api/IUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-api/src/main/java/github/grit/api/model/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-app/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-app/build.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-app/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-app/src/main/java/github/grit/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-app/src/main/java/github/grit/config/GuavaConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-app/src/main/java/github/grit/config/RedisClientConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-app/src/main/java/github/grit/config/RedisClientConfigProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-app/src/main/java/github/grit/config/ThreadPoolConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-app/src/main/java/github/grit/config/ThreadPoolConfigProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-app/src/main/java/github/grit/config/XxlJobAutoConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-app/src/main/java/github/grit/config/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-app/src/main/java/github/grit/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-app/src/main/resources/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-app/src/main/resources/application-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-app/src/main/resources/application-test.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-app/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-app/src/main/resources/logback-spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-app/src/main/resources/mybatis/config/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-app/src/main/resources/mybatis/mapper/user_order_mapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-app/src/main/resources/sharding/sharding-jdbc-dev.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-app/src/test/java/github/grit/test/ApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-app/src/test/java/github/grit/test/infrastructure/persistent/UserOrderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-app/src/test/java/github/grit/test/infrastructure/redis/RedisTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-domain/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-domain/src/main/java/github/grit/domain/xxx/adapter/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-domain/src/main/java/github/grit/domain/xxx/model/aggregate/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-domain/src/main/java/github/grit/domain/xxx/model/entity/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-domain/src/main/java/github/grit/domain/xxx/model/valobj/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-domain/src/main/java/github/grit/domain/xxx/repository/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-domain/src/main/java/github/grit/domain/xxx/service/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-domain/src/main/java/github/grit/domain/yyy/model/aggregate/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-domain/src/main/java/github/grit/domain/yyy/model/entity/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-domain/src/main/java/github/grit/domain/yyy/model/valobj/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-domain/src/main/java/github/grit/domain/yyy/repository/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-domain/src/main/java/github/grit/domain/yyy/service/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-infrastructure/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-infrastructure/src/main/java/github/grit/infrastructure/gateway/adapter/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-infrastructure/src/main/java/github/grit/infrastructure/gateway/api/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-infrastructure/src/main/java/github/grit/infrastructure/gateway/dto/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-infrastructure/src/main/java/github/grit/infrastructure/persistent/dao/IUserOrderDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-infrastructure/src/main/java/github/grit/infrastructure/persistent/dao/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-infrastructure/src/main/java/github/grit/infrastructure/persistent/po/UserOrderPO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-infrastructure/src/main/java/github/grit/infrastructure/persistent/po/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-infrastructure/src/main/java/github/grit/infrastructure/persistent/repository/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-infrastructure/src/main/java/github/grit/infrastructure/redis/IRedisService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-infrastructure/src/main/java/github/grit/infrastructure/redis/RedissonService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-trigger/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-trigger/src/main/java/github/grit/trigger/http/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-trigger/src/main/java/github/grit/trigger/job/XXLJob.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-trigger/src/main/java/github/grit/trigger/listener/MQListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-trigger/src/main/java/github/grit/trigger/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-trigger/src/main/java/github/grit/trigger/rpc/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-types/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-types/src/main/java/github/grit/types/common/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-types/src/main/java/github/grit/types/exception/AppException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/ddd-types/src/main/java/github/grit/types/model/Response.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/docs/dev-ops/app/docker-compose-1.0.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/docs/dev-ops/app/start.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/docs/dev-ops/app/stop.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/docs/dev-ops/environment/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/docs/dev-ops/environment/redis/redis.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/docs/dev-ops/environment/rocketmq/create-group.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/docs/dev-ops/environment/rocketmq/create-topic.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/docs/dev-ops/environment/rocketmq/data/console/config/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/docs/dev-ops/environment/rocketmq/data/console/config/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/docs/dev-ops/environment/rocketmq/data/console/store/dashboard2023-11-04.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/docs/dev-ops/environment/rocketmq/data/console/store/dashboard2023-11-04_topic.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/docs/dev-ops/environment/rocketmq/data/console/store/users.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/docs/dev-ops/environment/rocketmq/data/logs/consolelogs/rocketmq-console.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/docs/dev-ops/environment/rocketmq/data/logs/logs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/docs/dev-ops/environment/rocketmq/data/logs/rocketmqlogs/brokerLogDir_IS_UNDEFINED/broker.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/docs/dev-ops/environment/rocketmq/data/logs/rocketmqlogs/rocketmq_client.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/docs/dev-ops/environment/rocketmq/data/rocketmq/conf/broker.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/docs/dev-ops/environment/rocketmq/data/rocketmq/store/store.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/docs/dev-ops/environment/sql/nacos.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/docs/dev-ops/environment/sql/xfg_dev_tech_db_00.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/docs/dev-ops/environment/sql/xfg_dev_tech_db_01.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/docs/dev-ops/environment/sql/xxl_job.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ddd/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xfg-frame-archetype-std" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,10 +223,10 @@
     "Spring Boot.LlmApplication.executor": "Run",
     "ToolWindowBuild.ShowToolbar": "false",
     "com.codeium.enabled": "true",
-    "git-widget-placeholder": "mac",
+    "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/lijunyi/road/grit",
+    "last_opened_file_path": "/Users/lijunyi/road/grit/llm",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -214,18 +250,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/llm" />
       <recent name="$PROJECT_DIR$/note/direction" />
       <recent name="$PROJECT_DIR$/llm/llm-common/src/main/java/github/grit" />
       <recent name="$PROJECT_DIR$/starter/cache-spring-boot-starter" />
       <recent name="$PROJECT_DIR$/message" />
-      <recent name="$PROJECT_DIR$/blog-admin/src/main/java/github/grit" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ddd" />
       <recent name="$PROJECT_DIR$/llm/doc/img" />
       <recent name="$PROJECT_DIR$/llm/doc" />
       <recent name="$PROJECT_DIR$/llm" />
       <recent name="$PROJECT_DIR$/llm/doc/DDD" />
-      <recent name="$PROJECT_DIR$/llm/doc/DDD/理论" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="github.grit.llm" />

@@ -22,8 +22,6 @@
 		<module>blog</module>
 		<module>design-pattern</module>
 		<module>llm</module>
-		<module>ddd</module>
-		<module>xfg-frame-archetype-std</module>
 	</modules>
 
 	<properties>

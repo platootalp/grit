@@ -14,6 +14,12 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/ddd/ddd-api/pom.xml" />
+        <option value="$PROJECT_DIR$/ddd/ddd-app/pom.xml" />
+        <option value="$PROJECT_DIR$/ddd/ddd-domain/pom.xml" />
+        <option value="$PROJECT_DIR$/ddd/ddd-infrastructure/pom.xml" />
+        <option value="$PROJECT_DIR$/ddd/ddd-trigger/pom.xml" />
+        <option value="$PROJECT_DIR$/ddd/ddd-types/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo/pom.xml" />
         <option value="$PROJECT_DIR$/netty/pom.xml" />
         <option value="$PROJECT_DIR$/spring/pom.xml" />
@@ -21,8 +27,11 @@
         <option value="$PROJECT_DIR$/starter/cache-spring-boot-starter/pom.xml" />
         <option value="$PROJECT_DIR$/starter/llm/pom.xml" />
         <option value="$PROJECT_DIR$/starter/pom.xml" />
+        <option value="$PROJECT_DIR$/xfg-frame-archetype-std/pom.xml" />
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="17" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
 </project>
